@@ -1,0 +1,11 @@
+img {
+    /* scaling with font size */
+    height: 180px;
+    float: right;
+    margin-inline-start: 1rem;
+}
+
+body>* {
+    max-width: 60ch;
+    margin-inline: auto;
+}
