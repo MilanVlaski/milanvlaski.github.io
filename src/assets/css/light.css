@@ -1,0 +1,6 @@
+:root, :host {
+    --color-primary-500: hsl(212, 97%, 43%);
+
+    --color-neutral-50: hsl(210, 29%, 97%);
+    --color-neutral-900: hsl(210, 12%, 16%);
+}
