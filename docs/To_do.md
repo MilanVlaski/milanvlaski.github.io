@@ -1,0 +1,3 @@
+- [x] Implement writing, and a page with list of writings
+- [x] Make a list
+- [ ] 
