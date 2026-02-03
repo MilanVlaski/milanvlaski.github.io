@@ -79,12 +79,6 @@ h6 { font-size: 1rem; }
 
 p { font-size: 1rem; }
 
-
-section {
-    /* should be var(--spacing) */
-    padding: 1rem;
-}
-
 body > header, body > footer {
     padding: 1rem;
 }
@@ -307,4 +301,163 @@ body>* {
     max-width: 60ch;
     margin-inline: auto;
     padding: 1rem;
+}
+
+button, .button, input[type='submit'], input[type='button'], input[type='reset'] {
+    --button-background: var(--color-neutral-50);
+    --button-foreground: var(--color-neutral-950);
+    
+    --button-background-hover: var(--color-primary-100);
+    --button-border-color-hover: var(--color-primary-300);
+    --button-foreground-hover: var(--color-primary-700);
+    
+    --button-background-active: var(--color-primary-200);
+    --button-border-color-active: var(--color-primary-400);
+    --button-foreground-active: var(--color-primary-700);
+
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: center;
+    vertical-align: middle;
+
+    border-style: solid;
+    border-width: var(--input-border-width);
+    border-radius: var(--input-border-radius);
+    
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-decoration: none;
+    white-space: nowrap;
+    
+    user-select: none;
+    cursor: pointer;
+    
+    padding: 0.75em 1em;
+    color: var(--button-foreground);
+    border-color: var(--input-border-color);
+    background-color: var(--button-background);
+
+    transition: var(--transition-fast) background-color, var(--transition-fast) color, var(--transition-fast) border, var(--transition-fast) box-shadow;
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']):hover {
+    background-color: var(--button-background-hover);
+    border-color: var( --button-border-color-hover);
+    color: var(--button-foreground-hover);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']):active {
+    background-color: var(--button-background-active);
+    border-color: var(--button-border-color-active);
+    color: var(--button-foreground-active);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']):focus-visible {
+    outline: solid 3px var(--color-primary-500);
+}
+
+/* The semantic color application to individual components can be customized per project */
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).primary {
+    --button-background: var(--color-primary-600);
+    --button-foreground: var(--color-neutral-0);
+    --input-border-color: var(--color-primary-600);
+    
+    --button-background-hover: var(--color-primary-500);
+    --button-border-color-hover: var(--color-primary-500);
+    --button-foreground-hover: var(--color-neutral-0);
+    
+    --button-background-active: var(--color-primary-600);
+    --button-border-color-active: var(--color-primary-600);
+    --button-foreground-active: var(--color-neutral-0);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).neutral {
+    --button-background: var(--color-neutral-600);
+    --button-foreground: var(--color-neutral-0);
+    --input-border-color: var(--color-neutral-600);
+    
+    --button-background-hover: var(--color-neutral-500);
+    --button-border-color-hover: var(--color-neutral-500);
+    --button-foreground-hover: var(--color-neutral-0);
+    
+    --button-background-active: var(--color-neutral-600);
+    --button-border-color-active: var(--color-neutral-600);
+    --button-foreground-active: var(--color-neutral-0);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).success {
+    --button-background: var(--color-success-600);
+    --button-foreground: var(--color-neutral-0);
+    --input-border-color: var(--color-success-600);
+    
+    --button-background-hover: var(--color-success-500);
+    --button-border-color-hover: var(--color-success-500);
+    --button-foreground-hover: var(--color-neutral-0);
+    
+    --button-background-active: var(--color-success-600);
+    --button-border-color-active: var(--color-success-600);
+    --button-foreground-active: var(--color-neutral-0);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).warning {
+    --button-background: var(--color-warning-600);
+    --button-foreground: var(--color-neutral-0);
+    --input-border-color: var(--color-warning-600);
+    
+    --button-background-hover: var(--color-warning-500);
+    --button-border-color-hover: var(--color-warning-500);
+    --button-foreground-hover: var(--color-neutral-0);
+    
+    --button-background-active: var(--color-warning-600);
+    --button-border-color-active: var(--color-warning-600);
+    --button-foreground-active: var(--color-neutral-0);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).danger {
+    --button-background: var(--color-danger-600);
+    --button-foreground: var(--color-neutral-0);
+    --input-border-color: var(--color-danger-600);
+    
+    --button-background-hover: var(--color-danger-500);
+    --button-border-color-hover: var(--color-danger-500);
+    --button-foreground-hover: var(--color-neutral-0);
+    
+    --button-background-active: var(--color-danger-600);
+    --button-border-color-active: var(--color-danger-600);
+    --button-foreground-active: var(--color-neutral-0);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).outline {
+    --button-background: var(--color-neutral-50); 
+    --button-foreground: var(--input-border-color);
+}
+
+.button-group {
+    display: flex;
+}
+
+.button-group > :not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.button-group > :first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.button-group > :last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.button-group > *:not(:last-child) {
+    border-right: 0;
+}
+
+.button-group > *:not(.outline):not(:first-child) {
+    border-left: 1px solid var(--color-neutral-700);
+}
+
+:is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).small {
+    font-size: 0.675rem;
 }

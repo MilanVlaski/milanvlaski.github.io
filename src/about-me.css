@@ -10,4 +10,5 @@ img {
 body>* {
     max-width: 60ch;
     margin-inline: auto;
+    padding: 1rem;
 }

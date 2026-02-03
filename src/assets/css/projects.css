@@ -1,0 +1,20 @@
+.project.portrait {
+    display: flex;
+    gap: 1rem;
+}
+
+@media(max-width: 50ch) {
+    .project.portrait {
+        flex-direction: column;
+    }
+}
+
+.project.portrait img {
+    max-width: 20ch;
+    border-radius: 0.8rem;
+    border: 2px solid var(--color-neutral-600);
+}
+
+h1 {
+    margin-block-end: 1rem;
+}

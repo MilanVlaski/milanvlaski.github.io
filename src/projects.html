@@ -7,6 +7,7 @@
     <title>Projects - Milan Vlaški</title>
 
     <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/projects.css">
 </head>
 
 <body>
@@ -18,29 +19,33 @@
 
     <main>
         <h1>Projects</h1>
-        <p>Here are my projects:</p>
 
         <section class="project-grid">
 
         {% for item in collections.projects %}
 
-            <article class="card">
-                <img src="{{item}}" alt="">
-            <h2> {{ item.data.title }} </h2>
-            <p> {{ item.data.description }} </p>
-            
-            <div class="links">
-                <a href="{{ item.data.showcase }}">View {{ item.data.showcase_variant }}</a>
-                <a href="{{ item.data.github_url }}">GitHub Repo</a>
-            </div>
-
-            {% if item.data.prod %}
-                <span class="badge">Live in Production</span>
-            {% endif %}
-            <p>
-                {{ item.data.content }}
-            </p>
+            <article class="project {{ item.data.thumbnail_orientation }}">
+                <a href="{{ item.data.showcase }}" target="_blank">
+                    <img src="{{ item.data.thumbnail }}">
+                </a>
+                <div>
+                    <h2> {{ item.data.title }} </h2>
+                    <p> {{ item.data.description }} </p>
+                    
+                    <div class="links">
+                        <a href="{{ item.data.showcase }}" target="_blank">View {{ item.data.showcase_variant }}</a>
+                        <a href="{{ item.data.github_url }}" target="_blank">GitHub Repo</a>
+                    </div>
+                    
+                    <p>
+                        {{ item.content }}
+                    </p>
+                    {% if item.data.showcase %}
+                    <a href="{{ item.data.showcase }}" class="button primary" target="_blank">DEMO</a>
+                    {% endif %}
+                </div>
             </article>
+            <hr style="margin-block: 1rem;">
         {% endfor %}
         </section>
     </main>
