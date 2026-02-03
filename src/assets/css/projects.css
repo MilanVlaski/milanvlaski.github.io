@@ -10,15 +10,19 @@
 }
 
 .project.portrait img {
-    max-width: 20ch;
+    max-width: 25ch;
     border-radius: 0.8rem;
     border: 2px solid var(--color-neutral-600);
 }
 
 h1 {
-    margin-block-end: 1rem;
+    margin-block-end: 2rem;
 }
 
 .project a.button {
     margin-block-start: 1rem;
+}
+
+body>* {
+    max-width: 80ch;
 }
