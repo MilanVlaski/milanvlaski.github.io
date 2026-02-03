@@ -2,5 +2,6 @@
 - [x] Make a list
 - [x] Projects should show a template like
 - [ ] Create card in my-css
-- [ ] Show image
+- [x] Show image
+- [ ] Mention that I like manga, and the manga I like
 
