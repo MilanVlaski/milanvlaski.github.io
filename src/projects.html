@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Milan Vlaški</title>
 
-    <link rel="stylesheet" media="(prefers-color-scheme:light)" href="/assets/css/light.css" >
-    <link rel="stylesheet" media="(prefers-color-scheme:dark)" href="/assets/css/dark.css" >
     <link rel="stylesheet" href="/assets/css/common.css">
 </head>
 
@@ -19,16 +17,32 @@
     </header>
 
     <main>
-        <h1>Writing</h1>
+        <h1>Projects</h1>
         <p>Here are my projects:</p>
 
-        <ul>
-            {% for post in collections.writing %}
-            <li>
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+        <section class="project-grid">
+
+        {% for item in collections.projects %}
+
+            <article class="card">
+                <img src="{{item}}" alt="">
+            <h2> {{ item.data.title }} </h2>
+            <p> {{ item.data.description }} </p>
+            
+            <div class="links">
+                <a href="{{ item.data.showcase }}">View {{ item.data.showcase_variant }}</a>
+                <a href="{{ item.data.github_url }}">GitHub Repo</a>
+            </div>
+
+            {% if item.data.prod %}
+                <span class="badge">Live in Production</span>
+            {% endif %}
+            <p>
+                {{ item.data.content }}
+            </p>
+            </article>
+        {% endfor %}
+        </section>
     </main>
 
     <footer>
