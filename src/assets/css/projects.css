@@ -18,3 +18,7 @@
 h1 {
     margin-block-end: 1rem;
 }
+
+.project a.button {
+    margin-block-start: 1rem;
+}

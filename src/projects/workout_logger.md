@@ -6,6 +6,7 @@ github_url: https://github.com/MilanVlaski/workout-log-demo
 title: Workout Logger
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
+description: This app logs workout sessions with a text-based interface, with easy to "hit" inputs, solving common frustrations with typical notes apps.
 ---
 
-This app logs workout sessions with a text-based interface, with easy to "hit" inputs, solving common frustrations with typical notes apps.
+

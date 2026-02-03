@@ -30,7 +30,6 @@
                 </a>
                 <div>
                     <h2> {{ item.data.title }} </h2>
-                    <p> {{ item.data.description }} </p>
                     
                     <div class="links">
                         <a href="{{ item.data.showcase }}" target="_blank">View {{ item.data.showcase_variant }}</a>
@@ -38,7 +37,7 @@
                     </div>
                     
                     <p>
-                        {{ item.content }}
+                        {{ item.data.description }}
                     </p>
                     {% if item.data.showcase %}
                     <a href="{{ item.data.showcase }}" class="button primary" target="_blank">DEMO</a>
