@@ -20,7 +20,7 @@
     <main>
         <h1>Projects</h1>
 
-        <section class="project-grid">
+        <section>
 
         {% for item in collections.projects %}
 
@@ -47,9 +47,11 @@
                     <p>
                         {{ item.data.description }}
                     </p>
+
                     {% if item.data.showcase %}
-                    <a href="{{ item.data.showcase }}" class="button primary" target="_blank">DEMO</a>
+                    <a href="{{ item.data.showcase }}" class="button primary" target="_blank">Demo</a>
                     {% endif %}
+                    <a href="{{ item.url }}" class="button neutral">Learn More</a>
                 </div>
             </article>
             <hr style="margin-block: 1rem;">
