@@ -7,12 +7,11 @@ github_url: https://github.com/MilanVlaski/workout-log-demo
 title: Workout Logger
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
-description: Text based workout logging app, with an accessible GUI. A temporary log is kept inside the app, shown as text. A notebook and pen would provide better UX, but they're not easy to carry in a gym, so this webapp allows storing logs on your phone, and exporting the workout elsewhere, as text.
+description: Text based workout logging app, with an accessible interface. A temporary log is kept inside the app, shown as text. A notebook and pen would provide better use, but they're not easy to carry in a gym, so this webapp allows storing logs on your phone, and exporting the workout elsewhere, as text.
 ---
 
-[Draw.Io](https://drive.google.com/file/d/1d-ZH9s9k2A0bmclrXqE7jhGuTIRHhg6i/view?usp=sharing)
+[Draw.Io Sketches](https://drive.google.com/file/d/1d-ZH9s9k2A0bmclrXqE7jhGuTIRHhg6i/view?usp=sharing)
 
-# Summary
  Text based workout logging app, with an **accessible** GUI. A temporary log is kept inside the app, shown as text. Workout logs can be either backed up by the user (in an Excel sheet), or as text. Aditionally, the system may provide cloud backup.
  
 A notebook and pen would provide better UX, but they're not easy to carry in a gym, so this webapp allows storing logs on your phone, and exporting the workout elsewhere, as text.
@@ -20,12 +19,14 @@ A notebook and pen would provide better UX, but they're not easy to carry in a g
 - Your data is local - with periodic syncing to your personal log, or the cloud.
 - Installed once, never needs internet again.
 - YOU define the exercises, and are empowered to control your own data, reuse data as templates, etc.
-## Architecture
-1. Client = Vanilla JS. Progressive Web Application. Single Page Application, keeping data in IndexedDB and periodically syncing to the outside - cloud or not.
-2. Host = Cloudflare pages or VPS
-3. Server = Fastify
-4. Persistence = PostgresSQL
-5. One server or many?
+## Who is this for?
+1. Makes a single workout, exports it to CSV, so Google Sheets. I think some users would like that. They don't even need to view the log inside the app.
+2. Makes a single workout, exports as text, and saves in a text file. This was me, for a while.
+3. Users who don't care, who want ME to persist it, for them. In whichever way I find most cheap and efficient, and safe.
+4. Users 1 and 2, who might have a big log, and decide to import it, and then use features like:
+	1. remembering common exercises
+	2. take a previous workout as a template
+	3. Save templates? Where? As what data? Just an empty workout?
 ## Tiers
 Demo allows:
 - Create workout
@@ -38,18 +39,18 @@ Full users allows:
 - Take a previous workout as a template, empty it, and use it.
 - Save templates. -> "Saved workouts". Can be named.
 - Export a week as weekly program.
-## User types
-1. Makes a single workout, exports it to CSV, so Google Sheets. I think some users would like that. They don't even need to view the log inside the app.
-2. Makes a single workout, exports as text, and saves in a text file. This was me, for a while.
-3. Users who don't care, who want ME to persist it, for them. In whichever way I find most cheap and efficient, and safe.
-4. Users 1 and 2, who might have a big log, and decide to import it, and then use features like:
-	1. remembering common exercises
-	2. take a previous workout as a template
-	3. Save templates? Where? As what data? Just an empty workout?
 ### App tiers
 1. Demo -> Only dummy behavior.
 2. Personal Backup - One time purchase, because it's 100% usable offline. Install PWA with magic link. (I track it in a database)
 3. Cloud Backup. Requires a persistent JWT on the client side, because a user might wanna back up at any time. Also tracked in the database.
+   
+## Architecture
+1. Client = Vanilla JS. Progressive Web Application. Single Page Application, keeping data in IndexedDB and periodically syncing to the outside - cloud or not.
+2. Host = Cloudflare pages or VPS
+3. Server = Fastify
+4. Persistence = PostgresSQL
+5. One server or many?
+
 #### Personal backup
 1. Offline first PWA
 2. Authentication server. Or perhaps, it's only required for installing?

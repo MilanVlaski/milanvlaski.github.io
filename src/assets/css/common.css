@@ -37,8 +37,6 @@ h6 {
     font: inherit;
 }
 
-ul,
-ol,
 summary {
     list-style: none;
 }
@@ -57,7 +55,7 @@ summary {
 
 /* Typography */
 
-p {
+p, ul, ol {
     line-height: 1.5;
     margin-bottom: 1rem;
 }
@@ -70,8 +68,12 @@ h4,
 h5,
 h6 {
     line-height: 1.2;
-    margin-top: 2.5rem;
+    margin-top: 1em;
     margin-bottom: 0.5rem;
+}
+
+ul, ol {
+    margin-inline-start: 1.5rem;
 }
 
 h1 { font-size: 3.052rem; }
@@ -87,13 +89,6 @@ body > header, body > footer {
     padding: 1rem;
 }
 
-section > :first-child {
-    margin-top: 0 !important;
-}
-
-section > :last-child {
-    margin-bottom: 0 !important;
-}
 /* Typography */
 
 body {
@@ -270,11 +265,6 @@ code {
     border-radius: 3px;
     font-family: monospace;
 }
-
-ul {
-    margin-block-end: 0;
-}
-
 
 
 body>* {
