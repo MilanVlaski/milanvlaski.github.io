@@ -1,4 +1,5 @@
 ---
+order: 1
 prod: true
 showcase: https://milanvlaski.github.io/workout-log-demo/
 showcase_variant: DEMO

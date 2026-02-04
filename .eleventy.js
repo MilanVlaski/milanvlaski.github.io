@@ -11,7 +11,11 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("projects", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/projects/*.md").sort(function(a, b) {
-      return a.date - b.date;
+    // If order is missing, default to 999
+    const orderA = a.data.order ?? 999;
+    const orderB = b.data.order ?? 999;
+
+    return orderA - orderB;
     });
   });
 

@@ -26,3 +26,10 @@ h1 {
 body>* {
     max-width: 80ch;
 }
+
+.project.landscape img {
+    max-width: 100%;
+    object-fit: fill;
+    /* max-width: 25ch; */
+    border: 2px solid var(--color-neutral-600);
+}

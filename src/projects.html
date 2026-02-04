@@ -25,15 +25,23 @@
         {% for item in collections.projects %}
 
             <article class="project {{ item.data.thumbnail_orientation }}">
-                <a href="{{ item.data.showcase }}" target="_blank">
-                    <img src="{{ item.data.thumbnail }}">
-                </a>
+                {% if item.data.showcase %}
+                    <a href="{{ item.data.showcase }}" target="_blank">
+                        <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
+                    </a>
+                {% else %}
+                    <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
+                {% endif %}
                 <div>
                     <h2> {{ item.data.title }} </h2>
                     
                     <div class="links">
+                        {% if item.data.showcase %}
                         <a href="{{ item.data.showcase }}" target="_blank">View {{ item.data.showcase_variant }}</a>
+                        {% endif %}
+                        {% if item.data.github_url %}
                         <a href="{{ item.data.github_url }}" target="_blank">GitHub Repo</a>
+                        {% endif %}
                     </div>
                     
                     <p>
