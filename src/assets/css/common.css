@@ -282,6 +282,19 @@ body > footer {
     padding-block-end: 1rem;
 }
 
+header nav {
+    display: flex; 
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+}
+
+
 button, .button, input[type='submit'], input[type='button'], input[type='reset'] {
     --button-background: var(--color-neutral-50);
     --button-foreground: var(--color-neutral-950);
