@@ -6,4 +6,7 @@
 - [x] Landscape layout will have the image accross the screen
 - [x] Make external links open externally 
 - [ ] Mention that I like manga, and the manga I like
-- [ ] Add videos and thumbnail to "more" page
+- [ ] Add videos ~~and thumbnail~~ to "more" page. 
+  - [ ] Consider putting videos on youtube!
+- [ ] Write a page of freelance work you do...
+  - [ ] Plus a page on what inspires it!

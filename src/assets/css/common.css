@@ -76,6 +76,11 @@ ul, ol {
     margin-inline-start: 1.5rem;
 }
 
+ul > li,
+ol > li {
+    margin-block-end: 0.2rem;
+}
+
 h1 { font-size: 3.052rem; }
 h2 { font-size: 2.441rem; }
 h3 { font-size: 1.953rem; }
@@ -84,10 +89,6 @@ h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 
 p { font-size: 1rem; }
-
-body > header, body > footer {
-    padding: 1rem;
-}
 
 /* Typography */
 
@@ -270,7 +271,15 @@ code {
 body>* {
     max-width: 60ch;
     margin-inline: auto;
-    padding: 1rem;
+    padding-inline: 1rem;
+}
+
+body > header {
+    padding-block-start: 1rem;
+}
+
+body > footer {
+    padding-block-end: 1rem;
 }
 
 button, .button, input[type='submit'], input[type='button'], input[type='reset'] {

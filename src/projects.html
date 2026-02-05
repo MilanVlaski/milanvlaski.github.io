@@ -24,7 +24,7 @@
 
         {% for item in collections.projects %}
 
-            <article class="project {{ item.data.thumbnail_orientation }}">
+            <article id="{{ item.page.fileSlug }}" class="project {{ item.data.thumbnail_orientation }}">
                 {% if item.data.showcase %}
                     <a href="{{ item.data.showcase }}" target="_blank">
                         <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
