@@ -1,5 +1,6 @@
 ---
 title: How I Can Help You
+order: 1
 ---
 
 1. Creating offline-first web apps to eliminate data loss in the field. For field-based industries, like foresters or gym owners. **PWA, SPA, Offline-First.**
@@ -16,7 +17,10 @@ title: How I Can Help You
 ## Landing Pages
 **Focus**: Narrative-driven conversion. Transitioning your small business online shouldn't feel like shouting into a void. I combine brand strategy with high-conversion landing pages.
 
-**The Value**: I build a digital storefront that speaks your language and turns casual visitors into loyal customers.
+I've successfuly gained connections, and attracted customers and clients with my methods, and I'm willing to teach you how. It's  a simple matter of being honest, believing in what you say and presenting it without noise. Based on that, we will work together in these steps: 
+1. Step 1 - Describe your product/service convincingly.
+2. Step 2 - Define the core message.
+3. Step 3 - Decide the mediums for the message. Because, *[The medium is the message.](https://en.wikipedia.org/wiki/The_medium_is_the_message)*, we must figure out - is your user base on LinkedIn, Instagram, TikTok, or prefers in person communication? How do we tailor our key message for each medium, i.e., social media presence? How do we communicate our message through these mediums?
 
 [Example](/projects#etickethub)
 
