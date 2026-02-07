@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="/assets/css/project.css">
 
     <script type="module" src="/assets/js/header.js"></script>
+    <script type="module" src="/assets/js/footer.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <my-header></my-header>
-    </header>
 
-    <main>
+    <my-header></my-header>
+
+    <main class="container">
         <h1>{{ title }}</h1>
         <!-- TODO repetition -->
         <div class="links">
@@ -30,6 +31,8 @@
         </div>
         {{ content }}
     </main>
+
+    <my-footer></my-footer>
 </body>
 
 </html>

@@ -98,7 +98,7 @@ body {
 
 :root {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: clamp(16px, 0.5vw + 12px, 24px);
+    font-size: clamp(16px, 0.5vw + 12px, 21px);
 
     --color-primary-50: oklch(0.959 0.028 191.21);
     --color-primary-100: oklch(0.92 0.055 190.57);
@@ -268,23 +268,27 @@ code {
 }
 
 
-body>* {
-    max-width: 60ch;
+.container {
+    max-width: 65ch;
     margin-inline: auto;
     padding-inline: 1rem;
 }
 
-body > header {
+body header {
     padding-block-start: 1rem;
 }
 
-body > footer {
+body footer {
     padding-block-end: 1rem;
 }
 
 header nav {
     display: flex; 
     justify-content: space-between;
+}
+
+nav ul, nav ul li {
+    margin: 0;
 }
 
 header nav ul {
@@ -294,6 +298,13 @@ header nav ul {
     flex-direction: row;
 }
 
+header nav a {
+    align-self: center;
+}
+
+footer {
+    text-align: center;
+}
 
 button, .button, input[type='submit'], input[type='button'], input[type='reset'] {
     --button-background: var(--color-neutral-50);

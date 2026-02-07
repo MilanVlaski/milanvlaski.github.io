@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="about-me.css">
 
     <script type="module" src="/assets/js/header.js"></script>
+    <script type="module" src="/assets/js/footer.js"></script>
 </head>
 
 <body>
 
-    <header>
-        <my-header></my-header>
-    </header>
+    <my-header></my-header>
     
-    <main>
+    <main class="container">
         <h1>About me</h1>
         <img src="me.jpg" alt="Portrait of Milan Vlaški, the creator of this site">
         <a href="https://linkedin.com/in/milan-vlaski" alt="My LinkedIn"></a>
@@ -46,6 +45,19 @@
             source of motivation, in the knowledge that my software <i>can</i> impact people's lives.
         </p>
         <p>
+            <strong>Java</strong> was the largest part of this chapter.
+            It was Test Driven Development that helped raise me up from a total beginner, to a
+            useful programmer. Later, I learned a few JVM-based backend frameworks, along with Linux and Bash 
+            fundamentals for deploying and managing web services.
+        </p>
+        <p>
+            I've always enjoyed user interface work, but avoided it on the web, until I decided to get better
+            at semantic HTML, and CSS. <i>Currently</i>, I'm reverse-engineering
+            <a href="https://shoelace.style/" target="_blank">shoelace</a> a component library so I can more easily
+            create UIs that contain clean and maintainable HTML and CSS. I use Vanilla Javascript, as I love
+            the <a href="/writing/vanilla_js_architecture" target="_blank">architectural freedom</a> it offers.
+        </p>
+        <p>
             <i>Currently</i>, I'm trying to carve my own path as a programmer, always trying to see for myself 
             whether a particular idea, or technology is based in truth, or not.
         </p>
@@ -56,11 +68,16 @@
             <img src="/assets/img/rin1.png" alt="Itoshi Rin From Blue Lock">
             <figcaption>My Favorite Character From the Blue Lock Manga</figcaption>
         </figure> -->
+        <h4>Links</h4>
+        <p>
+            <ul>
+                <li><a href="https://github.com/milanvlaski" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </p>
     </main>
 
-    <footer>
-
-    </footer>
+    <my-footer></my-footer>
 
 </body>
 

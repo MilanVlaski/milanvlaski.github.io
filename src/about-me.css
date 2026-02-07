@@ -7,7 +7,7 @@ img {
     /* filter: grayscale(40%); */
 }
 
-body>* {
-    max-width: 60ch;
+body > main {
+    max-width: 65ch;
     margin-inline: auto;
 }

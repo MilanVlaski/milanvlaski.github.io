@@ -5,15 +5,16 @@
 - [x] Portrait layout details page will have the picture floating left, or perhaps flex.
 - [x] Landscape layout will have the image accross the screen
 - [x] Make external links open externally 
+- [x] Add more to nav
+- [x] Write a page of freelance work you do...
+- [ ] Add linkedin, github
 - [ ] Mention that I like manga, and the manga I like
 - [ ] Add videos ~~and thumbnail~~ to "more" page. 
   - [ ] Consider putting videos on youtube!
-- [ ] Write a page of freelance work you do...
-  - [ ] Plus a page on what inspires it!
+- [ ] A page on what inspires my freelance work, and work in general
 - [ ] Light/Dark switch
 - [ ] Language dropdown
-- [ ] Add more to nav
-- [ ] L
+- [ ] 
 
 
  Recommended Approaches:                                                                    

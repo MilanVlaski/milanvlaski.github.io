@@ -18,7 +18,8 @@
 h1 {
     margin-block-end: 2rem;
 }
-body>* {
+
+.container {
     max-width: 80ch;
 }
 
