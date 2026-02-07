@@ -1,7 +1,11 @@
 module.exports = function(eleventyConfig) {
   // Copy CSS files to the output directory
-  eleventyConfig.addPassthroughCopy({"src/*.*": "."})
-  eleventyConfig.addPassthroughCopy({"src/assets": "assets"})
+  eleventyConfig.addPassthroughCopy("src/index.html")
+  eleventyConfig.addPassthroughCopy("src/about-me.css")
+  eleventyConfig.addPassthroughCopy("src/me.jpg")
+  eleventyConfig.addPassthroughCopy("src/assets");
+
+  
 
   eleventyConfig.addCollection("writing", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/writing/*.md").sort(function(a, b) {
