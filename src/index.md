@@ -1,5 +1,5 @@
 ---
-layout: index_layout.html
+layout: index_layout.liquid
 title: About me
 ---
 

@@ -1,4 +1,4 @@
 {
-    "layout": "writing_layout.html",
+    "layout": "writing_layout.liquid",
     "tag": "writing"
 }
