@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing - Milan Vlaški</title>
+    <title>{{ title }}</title>
 
     <link rel="stylesheet" href="/assets/css/common.css">
-    
+    <link rel="stylesheet" href="/about-me.css">
+
     <script type="module" src="/assets/js/header.js"></script>
     <script type="module" src="/assets/js/footer.js"></script>
 </head>
@@ -15,20 +16,14 @@
 <body>
 
     <my-header></my-header>
-    
-    <main class="container">
-        <h1>Writing</h1>
 
-        <ul>
-            {% for post in collections.writing %}
-            <li>
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+    <main class="container">
+        <h1>{{ title }}</h1>
+        {{ content }}
     </main>
 
-        <my-footer></my-footer>
+    <my-footer></my-footer>
+
 </body>
 
 </html>

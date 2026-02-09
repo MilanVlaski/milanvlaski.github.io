@@ -7,134 +7,74 @@
 - [x] Make external links open externally 
 - [x] Add more to nav
 - [x] Write a page of freelance work you do...
-- [ ] Add linkedin, github
-- [ ] Mention that I like manga, and the manga I like
+- [x] Add linkedin, github
 - [ ] Add videos ~~and thumbnail~~ to "more" page. 
   - [ ] Consider putting videos on youtube!
-- [ ] A page on what inspires my freelance work, and work in general
-- [ ] Light/Dark switch
+- [x] A page on what inspires my freelance work, and work in general
+- [ ] Translation
 - [ ] Language dropdown
+- [ ] Light/Dark switch
 - [ ] 
 
 
- Recommended Approaches:                                                                    
-                                                                                      
-  1. Directory-based localization (Simplest & Most Efficient)
+1. The 11ty File Structure
+The cleanest way to organize this is to put your Serbian content in a subfolder and your English content at the root (or in its own folder but mapped to the root).
 
-  Create language-specific output structures:
-  src/
-  ├── sr/                    # Serbian content
-  │   ├── index.njk          # Serbian home page
-  │   ├── about.njk
-  │   └── ...
-  ├── en/                    # English content (existing)
-  │   ├── index.njk/
-  │   └── ...
-  └── index.njk              # Default/English
-
-  In .eleventy.js, add a permalink pattern to generate /sr/ URLs for Serbian pages.
-
-  2. Data-driven translations (For reusable text)
-
-  Create translation JSON files:
-  src/_data/
-  ├── translations/
-  │   ├── en.json
-  │   └── sr.json
-
-  Usage in templates: {{ translations.nav.home }}
-
-  3. Use eleventy-plugin-i18n (Most feature-rich)
-
-  Install the plugin which handles:
-  - Language switching
-  - URL paths (/sr/ prefix)
-  - Translation data
-  - Hreflang tags automatically
-
-  For your simple site, I recommend #1 + #2 combined: Directory-based routing with a shared
-  translations data file for navigation, headers, and common UI text.
-
-  Would you like me to implement this? I can:
-  - Set up Serbian (/sr/) versions of your pages
-  - Create translation data files
-  - Add a language switcher to your navigation
-  - Configure Eleventy to handle both languages
-
-  Which approach would you prefer, or would you like me to show you how to implement the most
-   efficient combination?
-
-import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
-
-- Handling links
-export default function(eleventyConfig) {
-  // This tells 11ty: "Watch my links and fix them automatically"
-  eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
-}
-
-# Marineska
-1. The Global Language Data
-First, define your supported languages in src/_data/languages.js:
-
-JavaScript
-
-module.exports = [
-  { code: "en", label: "English" },
-  { code: "es", label: "Spanish" }
-];
-
-2. The "One HTML File" Strategy
-Instead of putting index.html inside an /en/ folder, you put it in your root (or a generic source folder) and use Pagination to tell 11ty to generate it once for every language in your data.
-
-src/index.html:
-
-HTML
-
----
-pagination:
-  data: languages
-  size: 1
-  alias: locale
-permalink: "/{{ locale.code }}/index.html"
-layout: base.njk
----
-<h1>{{ ui.welcome_msg[locale.code] }}</h1>
-3. Solving the Links Globally
-To handle the "prefix thingy" automatically, you can create a small JavaScript filter. This filter checks if the language is your default; if it isn't, it prepends the language code.
-
-In your .eleventy.js:
-
-JavaScript
-
-eleventyConfig.addFilter("localPath", function(url, lang) {
-  // If English is your default and you want it at root, 
-  // you can return just the url. 
-  // But since we chose the /en/ /es/ structure:
-  return `/${lang}${url}`;
-});
-Usage in your "One" HTML set:
-<a href="{{ '/projects/' | localPath(locale.code) }}">
-
-4. Handling the Content Folders
-For your projects and writing directories, you have two options:
-
-Option A: The Manual Way (Clearer for translation)
-You keep src/en/projects/my-post.md and src/es/projects/mi-post.md. Since these contain the actual body text of your writing, they must be separate files anyway.
-
-Option B: The Parameterized Way (Harder)
-You keep one Markdown file but put the Spanish text inside the Front Matter or a JSON field. I don't recommend this—it makes writing long articles a nightmare because you lose Markdown formatting for the "hidden" language.
-
-5. The Directory Structure for this Approach
 Plaintext
 
 src/
 ├── _data/
-│   ├── languages.js   # ["en", "es"]
-│   └── ui.json        # { "welcome_msg": { "en": "Hi", "es": "Hola" } }
-├── _includes/
-│   └── base.njk       # The master structure
-├── projects/          # Your English .md files
-├── es/projects/       # Your Spanish .md files
-├── index.html         # One file with Pagination (Generates /en/ and /es/)
-├── projects.html      # One file with Pagination (Generates /en/projects/ and /es/projects/)
-└── writing.html       # One file with Pagination (Generates /en/writing/ and /es/writing/
+│   └── languages.json  (Define your 'en' and 'sr' settings)
+├── en/
+│   ├── en.json         (Set layout and permalink logic for English)
+│   └── index.md        (Becomes yourdomain.com/index.html)
+└── sr/
+    ├── sr.json         (Set layout and permalink logic for Serbian)
+    └── index.md        (Becomes yourdomain.com/sr/index.html)
+2. Setting the Permalinks
+In your src/sr/sr.json (Directory Specific Data File), you tell 11ty to prefix every URL with /sr/:
+
+JSON
+
+{
+  "layout": "layouts/base.njk",
+  "permalink": "/sr/{{ page.fileSlug }}/index.html"
+}
+For your English files in src/en/en.json, you keep it standard:
+
+JSON
+
+{
+  "layout": "layouts/base.njk",
+  "permalink": "/{{ page.fileSlug }}/index.html"
+}
+
+1. Create a "Dictionary" (Global Data)
+Instead of one giant JSON for all pages, create a src/_data/translations.js (or .json) file. This holds the strings that change.
+
+JavaScript
+
+module.exports = {
+  hero_title: {
+    en: "I build amazing websites.",
+    sr: "Pravim neverovatne veb sajtove."
+  },
+  view_work: {
+    en: "View my work",
+    sr: "Pogledajte moje radove"
+  }
+};
+2. Parameterize your HTML
+You don't need to delete your HTML. You just turn your .html files into .njk (Nunjucks) or keep them as .html with Liquid/Nunjucks front matter.
+
+You use a variable to determine the language. 11ty will look at the folder the file is in to decide if lang is "en" or "sr".
+
+Your src/sr/index.html would look like this:
+
+HTML
+
+---
+lang: sr
+---
+<h1>{{ translations.hero_title[lang] }}</h1>
+<button>{{ translations.view_work[lang] }}</button>
