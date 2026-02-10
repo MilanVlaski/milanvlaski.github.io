@@ -11,6 +11,8 @@
 - [ ] Add videos ~~and thumbnail~~ to "more" page. 
   - [ ] Consider putting videos on youtube!
 - [x] A page on what inspires my freelance work, and work in general
+- [ ] Make projects.liquid and writing.liquid into markdown, with almost no text, and have them reference a layout, which has everything, plus it uses localized strings.
+- [ ] Use localized strings in header and footer.
 - [ ] Translation
   - [ ] Translations file, for header, footer.
   - [ ] Translate
