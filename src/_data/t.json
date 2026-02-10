@@ -1,12 +1,14 @@
 {
     "en": {
         "made_with": "Site made with",
+        "home": "Home",
         "writing": "Writing",
         "projects": "Projects",
         "services": "My Services"
     },
     "sr": {
         "made_with": "Sajt je napravljen sa",
+        "home": "Početna",
         "writing": "Pisanje",
         "projects": "Projekti",
         "services": "Moje Usluge"
