@@ -3,7 +3,7 @@ layout: index_layout.liquid
 title: About me
 ---
 
-<img src="me.jpg" alt="Portrait of Milan Vlaški, the creator of this site">
+<img src="/assets/img/me.jpg" alt="Portrait of Milan Vlaški, the creator of this site">
 
 Hi! I'm Milan Vlaški, a programmer. You might care to check out my:
 
