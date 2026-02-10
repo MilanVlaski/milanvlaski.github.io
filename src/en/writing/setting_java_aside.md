@@ -5,7 +5,7 @@ title: Why I'm Setting Java Aside
 
 > Because making an object, putting a dot after it, and getting a dropdown with a list of methods of that object is *beautiful*.
 
-In the University of East Sarajevo, we started off with C#. The C# curriculum heavily taught us about properties, and getters and setters, a topic which is was done to death, that there exist [tutorials](https://www.youtube.com/watch?v=6wVmqY-CrGM) to explain why we need them. A concept that's wrong. These getters and setters only serve to pollute the dropdown, with useless information.
+In the University of East Sarajevo, we started off with C#. The C# curriculum heavily taught us about properties, and getters and setters, a topic which is was done to death, that there exist <a href="https://www.youtube.com/watch?v=6wVmqY-CrGM" target="_blank">tutorials</a> to explain why we need them. A concept that's wrong. These getters and setters only serve to pollute the dropdown, with useless information.
 
 When we were taught Java, it was a bit different. Properties don't exist! So you're free to name your methods however you like. So, I write a class, give it a method, instantiate the class and bam! I've got the method, right there! I don't have to remember it's name, just make an instance.
 
@@ -50,7 +50,7 @@ So, yeah, instead of fighting against the tide, let's just use a good language, 
 
 If you want purity, and this is nothing new, it's Lisp. But the idea of making something commercial with Lisp sounds unrealistic.
 
-[A Better Criticism of Spring](https://youtube.com/watch?v=lsyZj6LBvVA)
+<a href="https://youtube.com/watch?v=lsyZj6LBvVA" target="_blank">A Better Criticism of Spring</a>
 
 ## Conclusion
 I believe that a programming language with a good "ecosystem" doesn't exist, as in every language ecosystem, there is a small number of programmers writing minimal, functional code. Therefore, it's a waste of time to learn a new language with the hopes of finding people who write code sanely. Instead, I'll focus on freelancing for now, and try to find people that share my coding interests, taste and style.

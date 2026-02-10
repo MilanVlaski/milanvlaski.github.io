@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -49,7 +49,7 @@
                     {% if item.data.showcase %}
                     <a href="{{ item.data.showcase }}" class="button primary" target="_blank">Demo</a>
                     {% endif %}
-                    <a href="{{ item.url }}" class="button neutral">Learn More</a>
+                    <a href="{{ item.url | locale_url}}" class="button neutral">Learn More</a>
                 </div>
             </article>
             <hr style="margin-block: 1rem;">

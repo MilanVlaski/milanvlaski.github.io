@@ -14,7 +14,7 @@ That's where LLMs come in. So for me, a lot of my experience with AI written cod
 
 > This is not even worth reading. I would rather just make it.
 
-And a lot of the time, but not always, it's because I can sense that the author of the code, a person or AI, was infected with some way of thinking about code that I don't agree with. The main culprit being Java. See [Why I'm setting Java aside](/writing/setting_java_aside).
+And a lot of the time, but not always, it's because I can sense that the author of the code, a person or AI, was infected with some way of thinking about code that I don't agree with. The main culprit being Java. See [Why I'm setting Java aside]({{ "/writing/setting_java_aside" | locale_url }}).
 # A better process
 I would define a contrary process, where, we take all of the little bits raw bits of data that need to be processed in a software system, and we figure out the most simple solution to do that. Which usually involves simple protocols and existing solutions, such as, Linux, Bash, SQL, HTML, CSS, etc. This allows us to tailor our solutions, so we get much fewer lines of code.
 

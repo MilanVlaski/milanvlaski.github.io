@@ -1,10 +1,10 @@
 <header class="container">
     <nav>
-        <a href="/">Home</a>
+        <a href="{{ "/" | locale_url }}">Home</a>
         <ul>
-            <li><a href="/writing">Writing</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/writing/my_work">My Services</a></li>
+            <li><a href="{{ "/writing" | locale_url }}">Writing</a></li>
+            <li><a href="{{ "/projects" | locale_url }}">Projects</a></li>
+            <li><a href="{{ "/writing/my_work" | locale_url }}">My Services</a></li>
         </ul>
     </nav>
 </header>

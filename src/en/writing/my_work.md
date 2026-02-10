@@ -12,7 +12,7 @@ order: 1
 
 **The Value**: Your data is saved locally first and syncs when you’re back online. No lost progress, no "spinning wheels," just pure productivity.
 
-[Example](/projects#workout_logger)
+[Example]({{ "/projects" | locale_url }}#workout_logger)
 
 ## Landing Pages
 **Focus**: Narrative-driven conversion. Transitioning your small business online shouldn't feel like shouting into a void. I combine brand strategy with high-conversion landing pages.
@@ -22,7 +22,7 @@ I've successfuly gained connections, and attracted customers and clients with my
 2. Step 2 - Define the core message.
 3. Step 3 - Decide the (social) media for the message.
 
-[Example](/projects#etickethub)
+[Example]({{ "/projects" | locale_url }}#etickethub)
 
 ## Reverse Engineering
 **Focus**: If your current software feels like a chore, let’s replace it. If you see a piece of software, and wish you had it, we can work together to create it from scratch, and make it even lighter than the original!

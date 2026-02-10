@@ -1,4 +1,5 @@
 {
     "layout": "writing_layout.liquid",
-    "tag": "writing"
+    "tag": "writing",
+    "lang": "en"
 }

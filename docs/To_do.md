@@ -12,6 +12,10 @@
   - [ ] Consider putting videos on youtube!
 - [x] A page on what inspires my freelance work, and work in general
 - [ ] Translation
+  - [ ] Translations file, for header, footer.
+  - [ ] Translate
+    - [ ] Index
+    - [ ] 
 - [ ] Language dropdown
 - [ ] Light/Dark switch
 - [ ] 
