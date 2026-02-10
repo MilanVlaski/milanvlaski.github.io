@@ -1,6 +1,6 @@
 ---
-layout: index_layout.liquid
 title: About me
+layout: index_layout.liquid
 ---
 
 <img src="/assets/img/me.jpg" alt="Portrait of Milan Vlaški, the creator of this site">
