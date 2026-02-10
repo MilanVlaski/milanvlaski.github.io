@@ -1,5 +1,4 @@
 {
     "layout": "project_layout.liquid",
-    "tag": "project",
-    "lang": "en"
+    "tag": "project"
 }
