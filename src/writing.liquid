@@ -8,13 +8,11 @@
 
     <link rel="stylesheet" href="/assets/css/common.css">
     
-    <script type="module" src="/assets/js/header.js"></script>
-    <script type="module" src="/assets/js/footer.js"></script>
 </head>
 
 <body>
 
-    <my-header></my-header>
+    {% include "header.liquid" %}
     
     <main class="container">
         <h1>Writing</h1>
@@ -28,7 +26,7 @@
         </ul>
     </main>
 
-        <my-footer></my-footer>
+    {% include "footer.liquid" %}
 </body>
 
 </html>
