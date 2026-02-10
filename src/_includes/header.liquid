@@ -6,5 +6,13 @@
             <li><a href="{{ "/projects" | locale_url }}">{{ t[lang].projects  }}</a></li>
             <li><a href="{{ "/writing/my_work" | locale_url }}">{{ t[lang].services }}</a></li>
         </ul>
-        </nav>
+        
+            {% comment %}
+        TODO use a dropdown
+         Language:
+            {% assign links = page.url | locale_links %}
+            {%- for link in links %}
+            {%- unless forloop.first %},{% endunless %}
+            <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
+            {%- endfor -%} {% endcomment %}
 </header>

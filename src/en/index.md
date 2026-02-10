@@ -1,6 +1,7 @@
 ---
 title: About me
 layout: index_layout.liquid
+permalink: /index.html
 ---
 
 <img src="/assets/img/me.jpg" alt="Portrait of Milan Vlaški, the creator of this site">
