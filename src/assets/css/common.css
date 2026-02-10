@@ -286,11 +286,6 @@ body footer {
     padding-block-end: 1rem;
 }
 
-header nav {
-    display: flex; 
-    justify-content: space-between;
-}
-
 nav ul, nav ul li {
     margin: 0;
 }
@@ -300,6 +295,7 @@ header nav ul {
     display: flex;
     gap: 0.5rem;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 header nav a {
@@ -467,4 +463,8 @@ button, .button, input[type='submit'], input[type='button'], input[type='reset']
 
 :is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).small {
     font-size: 0.675rem;
+}
+
+nav > ul > li:first-child {
+    margin-inline-end: auto;
 }
