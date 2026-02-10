@@ -1,4 +1,5 @@
 {
   "lang": "en",
+  "dir": "ltr",
   "permalink": "{% if page.filePathStem == '/en/index' %}/{% else %}{{ page.filePathStem | replace: '/en/', '/' }}/{% endif %}index.html"
 }

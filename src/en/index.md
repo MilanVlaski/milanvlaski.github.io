@@ -13,7 +13,7 @@ Hi! I'm Milan Vlaški, a programmer. You might care to check out my:
 
 ## Technical interests
 
-I have a background in Java and Kotlin, as well as HTML, CSS and Javascript, with some Linux and Bash - a full-stack developer. I like simple software.
+I have a background in Java and Kotlin, as well as HTML, CSS and Javascript, with some Linux and Bash. I'm a full-stack developer, who likes simple software.
 
 ### Brief Technical History
 
