@@ -21,38 +21,39 @@
         <section>
 
         {% for item in collections.projects %}
-
-            <article id="{{ item.page.fileSlug }}" class="project {{ item.data.thumbnail_orientation }}">
-                {% if item.data.showcase %}
-                    <a href="{{ item.data.showcase }}" target="_blank">
-                        <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
-                    </a>
-                {% else %}
-                    <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
-                {% endif %}
-                <div>
-                    <h2> {{ item.data.title }} </h2>
-                    
-                    <div class="links">
-                        {% if item.data.showcase %}
-                        <a href="{{ item.data.showcase }}" target="_blank">View {{ item.data.showcase_variant }}</a>
-                        {% endif %}
-                        {% if item.data.github_url %}
-                        <a href="{{ item.data.github_url }}" target="_blank">GitHub Repo</a>
-                        {% endif %}
-                    </div>
-                    
-                    <p>
-                        {{ item.data.description }}
-                    </p>
-
+            {% if item.data.lang == page.lang %}
+                <article id="{{ item.page.fileSlug }}" class="project {{ item.data.thumbnail_orientation }}">
                     {% if item.data.showcase %}
-                    <a href="{{ item.data.showcase }}" class="button primary" target="_blank">Demo</a>
+                        <a href="{{ item.data.showcase }}" target="_blank">
+                            <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
+                        </a>
+                    {% else %}
+                        <img src="{{ item.data.thumbnail }}" alt="{{ item.data.title }}">
                     {% endif %}
-                    <a href="{{ item.url | locale_url}}" class="button neutral">Learn More</a>
-                </div>
-            </article>
-            <hr style="margin-block: 1rem;">
+                    <div>
+                        <h2> {{ item.data.title }} </h2>
+                        
+                        <div class="links">
+                            {% if item.data.showcase %}
+                            <a href="{{ item.data.showcase }}" target="_blank">View {{ item.data.showcase_variant }}</a>
+                            {% endif %}
+                            {% if item.data.github_url %}
+                            <a href="{{ item.data.github_url }}" target="_blank">GitHub Repo</a>
+                            {% endif %}
+                        </div>
+                        
+                        <p>
+                            {{ item.data.description }}
+                        </p>
+
+                        {% if item.data.showcase %}
+                        <a href="{{ item.data.showcase }}" class="button primary" target="_blank">Demo</a>
+                        {% endif %}
+                        <a href="{{ item.url | locale_url}}" class="button neutral">Learn More</a>
+                    </div>
+                </article>
+                <hr style="margin-block: 1rem;">
+            {% endif %}
         {% endfor %}
         </section>
     </main>

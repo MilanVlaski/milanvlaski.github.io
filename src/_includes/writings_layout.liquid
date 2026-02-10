@@ -19,9 +19,9 @@
 
         <ul>
             {% for post in collections.writing %}
-            <li>
-                <a href="{{ post.url | locale_url }}">{{ post.data.title }}</a>
-            </li>
+                {% if post.data.lang == page.lang %}
+                    <li><a href="{{ post.url | locale_url }}">{{ post.data.title }}</a></li>
+                {% endif %}
             {% endfor %}
         </ul>
     </main>
