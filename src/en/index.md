@@ -39,10 +39,10 @@ fundamentals for deploying and managing web services.
 I've always enjoyed user interface work, but avoided it on the web, until I decided to get better
 at semantic HTML, and CSS. *Currently*, I'm reverse-engineering
 <a href="https://shoelace.style" target="_blank">shoelace</a> a component library so I can more easily
-create UIs that contain clean and maintainable HTML and CSS. I use Vanilla Javascript, as I love
+create UIs that are maintainable. I use Vanilla Javascript, as I love
 the [architectural freedom]({{"/writing/vanilla_js_architecture" | locale_url }}) it offers.
 
-*Currently*, I'm trying to carve my own path as a programmer, always trying to see for myself whether something is necessary, or not.
+*Currently*, I'm trying to carve my own path as a programmer, always trying to see for myself whether a software tool is necessary, or not.
 
 ## Life interests
 

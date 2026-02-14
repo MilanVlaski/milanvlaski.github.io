@@ -8,7 +8,7 @@ layout: index_layout.liquid
 Zdravo! Ja sam Milan Vlaški, programer. Možda vas interesuje da pogledate:
 
 *   [Pisanje]({{"/writing" | locale_url }})
-*   [Projekti]({{"/projects" | locale_url }})
+*   [Projekte]({{"/projects" | locale_url }})
 *   [Moje Usluge]({{"/writing/my_work" | locale_url }})
 
 ## Tehnički interesi
@@ -26,9 +26,9 @@ Posebno sam se zainteresovao za softversko inženjerstvo tokom treće godine Fak
 
 **Java** je bila najveći dio tog poglavlja, dok mi je Test Driven Development pomogao da se izdignem od totalnog početnika u korisnog programera. Kasnije sam naučio i nekoliko JVM baziranih bekend frejmvorka, uz Linux i Bash, radi upravljanja web servisima.
 
-Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na web-u, sve dok ne odlučih da naučim semantički HTML, i CSS. Trenutno, pokušavam da iskopiram <a href="https://shoelace.style" target="_blank">shoelace</a> komponente, da bih mogao lakše kreirati UI komponente sa čistim i održivim HTML-om i CSS-om. Koristim Vanilla Javascript, pošto volim [arhitekturnu slobodu]({{"/writing/vanilla_js_architecture" | locale_url }}) koju nudi.
+Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na web-u, sve dok ne odlučih da naučim semantički HTML, i CSS. Trenutno, pokušavam da iskopiram <a href="https://shoelace.style" target="_blank">shoelace</a> komponente, da bih mogao lakše kreirati UI komponente koje su održive. Koristim Vanilla Javascript, pošto volim [arhitekturnu slobodu]({{"/writing/vanilla_js_architecture" | locale_url }}) koju nudi.
 
-*Trenutno*, pokušavam da prokrčim svoj put kao programer, uvijek pokušavajući da otkrijem da li je nešto "potrebno" ili nije.
+*Trenutno*, pokušavam da prokrčim svoj put kao programer, uvijek pokušavajući da otkrijem da li je neki softverski alat potreban ili nije.
 
 ## Životni interesi
 
