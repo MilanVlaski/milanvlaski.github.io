@@ -16,6 +16,7 @@
 - [x] Translation
   - [x] Translations file, for header, footer.
   - [x] Translate
+- [ ] Change "Demo" to "Try it" and "Isprobaj", and leave "Demonstration" for actual video demonstrations.
 - [ ] Language dropdown
 - [ ] Light/Dark switch
 - [ ] 

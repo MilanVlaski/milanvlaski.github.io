@@ -16,6 +16,13 @@ Hi! I'm Milan Vlaški, a programmer. You might care to check out my:
 
 I have a background in Java and Kotlin, as well as HTML, CSS and Javascript, with some Linux and Bash. I'm a full-stack developer, who likes simple software.
 
+I'm a minimalist. This results in:
+- Software that works **without intervention** for many years. In 2026 this is rare <!-- TODO prove that static sites last long -->
+- Software with a smaller physical footprint, and fewer lines to read.
+- Saving time and money when writing and running code.
+  
+Naturally, it's no good to be minimalistic in all circumstances. Nevertheless, minimalism is a common thread in my life, ever since I was young. It combines well with "going under the radar", offering many strategic advantages.
+
 ### Brief Technical History
 
 My particular interest for software engineering was sparked
@@ -35,8 +42,7 @@ at semantic HTML, and CSS. *Currently*, I'm reverse-engineering
 create UIs that contain clean and maintainable HTML and CSS. I use Vanilla Javascript, as I love
 the [architectural freedom]({{"/writing/vanilla_js_architecture" | locale_url }}) it offers.
 
-*Currently*, I'm trying to carve my own path as a programmer, always trying to see for myself
-whether a particular idea, or technology is based in truth, or not.
+*Currently*, I'm trying to carve my own path as a programmer, always trying to see for myself whether something is necessary, or not.
 
 ## Life interests
 
