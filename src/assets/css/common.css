@@ -134,6 +134,10 @@ header nav ul {
 nav > ul > li:first-child {
     margin-inline-end: auto;
 }
+
+nav ul > li {
+    align-self: center;
+}
 /* header nav */
 
 .container {

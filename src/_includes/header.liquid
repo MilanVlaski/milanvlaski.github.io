@@ -5,14 +5,16 @@
             <li><a href="{{ "/writing" | locale_url }}">{{ t[lang].writing  }}</a></li>
             <li><a href="{{ "/projects" | locale_url }}">{{ t[lang].projects  }}</a></li>
             <li><a href="{{ "/writing/my_work" | locale_url }}">{{ t[lang].services }}</a></li>
-            {% comment %} <li>
-                Language:
-                   {% assign links = page.url | locale_links %}
-                   {%- for link in links %}
-                   {%- unless forloop.first %},{% endunless %}
-                   <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
-                   {%- endfor -%}
-            </li> {% endcomment %}
+            <li>
+                <select name="language" id="language-select" style="height: 2rem; padding-inline-start: 0.6em; padding-inline-end: 2rem;">
+                    <option value="{{ page.url }}" selected>{{ page.lang | uppercase }}</option>
+                    
+                    {% assign links = page.url | locale_links %}
+                    {%- for link in links %}
+                        <option value="{{ link.url }}">{{ link.lang | uppercase }}</option>
+                    {%- endfor -%}
+                </select>
+            </li>
         </ul>
         
             

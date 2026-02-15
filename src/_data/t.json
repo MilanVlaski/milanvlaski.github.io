@@ -6,7 +6,8 @@
         "projects": "Projects",
         "services": "My Services",
         "try_it": "Try It",
-        "learn_more": "Learn More"
+        "learn_more": "Learn More",
+        "language": "Stranica dostupna i na:"
     },
     "sr": {
         "made_with": "Sajt je napravljen sa",
@@ -15,6 +16,7 @@
         "projects": "Projekti",
         "services": "Moje Usluge",
         "try_it": "Isprobaj",
-        "learn_more": "Saznaj Više"
+        "learn_more": "Saznaj Više",
+        "language": "Page available in:"
     }
 }

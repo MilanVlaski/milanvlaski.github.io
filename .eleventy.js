@@ -37,6 +37,19 @@ module.exports = async function (eleventyConfig) {
     })
   })
 
+  eleventyConfig.addFilter("capitalize", function (value) {
+    return value
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+  })
+
+  eleventyConfig.addFilter("uppercase", function (value) {
+    if (!value) return "";
+
+    return value.toUpperCase()
+  })
+
   return {
     dir: {
       input: "src",
