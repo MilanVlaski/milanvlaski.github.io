@@ -1,6 +1,7 @@
 ---
-title: Inženjerstvo versus Zanatlijanstvo
+title: Inženjerstvo i Zanat
 ---
+(Objava prevedena na Srpski korištenjem vještačke inteligencije)
 
 Razmotrimo programiranje kao inženjerstvo, ili kao zanatlijanstvo, ili umetnost. Verujem da ono što vidimo sa LLM-ima uzemljuje ubrzava inženjersku stranu. Prvo, definišimo šta je softversko inženjerstvo. Dakle, softversko inženjerstvo je *u osnovi* uzimanje nečeg što je već poznato iz nauke, iskustva ili najbolje prakse, i samo primena na problem naoružan. U 90% slučajeva, više je "najbolja praksa" nego stvarna nauka, ali u principu, to je inženjerstvo.
 

@@ -1,8 +1,9 @@
 ---
-title: Zašto odbacujem Javu
+title: Zašto ostavljam Javu za sad
 ---
+(Objava prevedena na Srpski korištenjem vještačke inteligencije)
 
-## Zašto sam Java volio na početku
+ Zašto sam na početku volio Javu:
 
 > Jer pravljenje objekta, stavljanje tačke posle njega, i dobijanje padajućeg menija sa listom metoda tog objekta je *prekrasno*.
 
