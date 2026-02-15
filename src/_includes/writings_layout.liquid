@@ -17,11 +17,10 @@
     <main class="container">
         <h1>{{ title }}</h1>
 
+        {%- capture collectionKey -%}{{ lang }}_writing{%- endcapture -%}
         <ul>
-            {% for post in collections.writing %}
-                {% if post.data.lang == page.lang %}
-                    <li><a href="{{ post.url | locale_url }}">{{ post.data.title }}</a></li>
-                {% endif %}
+            {% for post in collections[collectionKey] %}
+                <li><a href="{{ post.url | locale_url }}">{{ post.data.title }}</a></li>
             {% endfor %}
         </ul>
     </main>

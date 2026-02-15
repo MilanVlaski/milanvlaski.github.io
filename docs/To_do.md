@@ -17,7 +17,6 @@
   - [x] Translations file, for header, footer.
   - [x] Translate
 - [ ] Neka engleski blogovi budu vidljivi, ako srpski ne postoje
-  - [ ] Definisi custom filter koji uzima lang kao parametar. Isprintaj koje podatke ima list blogova, pa onda vidi kako mozes primijeniti da se prvo u listu upisu jedan jezik, pa onda onaj "preferirani".
 - [ ] Change "Demo" to "Try it" and "Isprobaj", and leave "Demonstration" for actual video demonstrations.
 - [ ] Language dropdown
 - [ ] Light/Dark switch

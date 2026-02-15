@@ -20,8 +20,8 @@
 
         <section>
 
-        {% for item in collections.projects %}
-            {% if item.data.lang == page.lang %}
+        {%- capture collectionKey -%}{{ lang }}_projects{%- endcapture -%}
+        {% for item in collections[collectionKey] %}
                 <article id="{{ item.page.fileSlug }}" class="project {{ item.data.thumbnail_orientation }}">
                     {% if item.data.showcase %}
                         <a href="{{ item.data.showcase }}" target="_blank">
@@ -53,7 +53,6 @@
                     </div>
                 </article>
                 <hr style="margin-block: 1rem;">
-            {% endif %}
         {% endfor %}
         </section>
     </main>
