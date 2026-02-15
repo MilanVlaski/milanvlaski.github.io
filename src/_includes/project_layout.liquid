@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
 
+    {% include "theme-check.liquid" %}
+
     <link rel="stylesheet" href="/assets/css/common.css">
     <link rel="stylesheet" href="/assets/css/project.css">
     <script src="/assets/js/script.js"></script>
+    <script type="module" src="/assets/js/theme-select.js"></script>
 </head>
 
 <body>
@@ -19,8 +22,8 @@
         <h1>{{ title }}</h1>
         <!-- TODO repetition -->
         <div class="links">
-            {% if showcase %}
-            <a href="{{ showcase }}" target="_blank">View {{ showcase_variant }}</a>
+            {% if try_it %}
+            <a href="{{ try_it }}" target="_blank">{{t[lang].try_it}}</a>
             {% endif %}
             {% if github_url %}
             <a href="{{ github_url }}" target="_blank">GitHub Repo</a>

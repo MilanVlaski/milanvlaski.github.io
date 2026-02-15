@@ -6,7 +6,7 @@
             <li><a href="{{ "/projects" | locale_url }}">{{ t[lang].projects  }}</a></li>
             <li><a href="{{ "/writing/my_work" | locale_url }}">{{ t[lang].services }}</a></li>
             <li>
-                <select name="language" id="language-select" style="height: 2rem; padding-inline-start: 0.6em; padding-inline-end: 2rem;">
+                <select name="language" id="language-select">
                     <option value="{{ page.url }}" selected>{{ page.lang | uppercase }}</option>
                     
                     {% assign links = page.url | locale_links %}
@@ -14,7 +14,16 @@
                         <option value="{{ link.url }}">{{ link.lang | uppercase }}</option>
                     {%- endfor -%}
                 </select>
-            </li>
+                </li>
+            <li>
+                <theme-select>
+                    <select name="theme-select">
+                        <option value="system">{{t[lang].system}}</option>
+                        <option value="light">{{t[lang].light}}</option>
+                        <option value="dark">{{t[lang].dark}}</option>
+                    </select>
+                </theme-select>
+            </li>        
         </ul>
         
             

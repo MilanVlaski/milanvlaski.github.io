@@ -16,9 +16,8 @@
 - [x] Translation
   - [x] Translations file, for header, footer.
   - [x] Translate
-- [ ] Neka engleski blogovi budu vidljivi, ako srpski ne postoje
-- [ ] Change "Demo" to "Try it" and "Isprobaj", and leave "Demonstration" for actual video demonstrations.
-- [ ] Language dropdown
+- [x] Change "Demo" to "Try it" and "Isprobaj", and leave "Demonstration" for actual video demonstrations.
+- [x] Language dropdown
 - [ ] Light/Dark switch
 - [ ] 
 
