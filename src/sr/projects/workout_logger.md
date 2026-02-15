@@ -1,8 +1,7 @@
 ---
 order: 1
 prod: true
-showcase: https://milanvlaski.github.io/workout-log-demo/
-showcase_variant: DEMO
+try_it: https://milanvlaski.github.io/workout-log-demo/
 github_url: https://github.com/MilanVlaski/workout-log-demo
 title: Workout Logger
 thumbnail: /assets/img/workout_logger.png

@@ -13,7 +13,7 @@ Zdravo! Ja sam Milan Vlaški, programer. Možda vas interesuje da pogledate:
 
 ## Tehnički interesi
 
- Imam iskustvo u Javi i Kotlinu, kao i HTML, CSS i Javascript, sa nekim Linux i Bash. Ja sam full-stack developer, koji voli jednostavan softver.
+ Ja sam full-stack developer, sa iskustvom u Javi i Kotlinu, kao i HTML, CSS i Javascript, sa nekim Linux i Bash.
 
  Ja sam minimalista, rezultat čega je:
  - Softver koji radi bez intervencije, dugo godina.

@@ -14,7 +14,7 @@ Hi! I'm Milan Vlaški, a programmer. You might care to check out my:
 
 ## Technical interests
 
-I have a background in Java and Kotlin, as well as HTML, CSS and Javascript, with some Linux and Bash. I'm a full-stack developer, who likes simple software.
+I'm a full-stack developer, with a background in Java and Kotlin, as well as HTML, CSS and Javascript, with some Linux and Bash.
 
 I'm a minimalist. This results in:
 - Software that works **without intervention** for many years. In 2026 this is rare <!-- TODO prove that static sites last long -->

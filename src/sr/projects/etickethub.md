@@ -1,8 +1,7 @@
 ---
 order: 2
 prod: true
-# showcase: https://milanvlaski.github.io/workout-log-demo/
-# showcase_variant: DEMO
+# try_it: https://milanvlaski.github.io/workout-log-demo/
 # github_url: https://github.com/MilanVlaski/workout-log-demo
 title: eTicket Hub
 thumbnail: /assets/img/etickethub.png

@@ -4,13 +4,17 @@
         "home": "Home",
         "writing": "Writing",
         "projects": "Projects",
-        "services": "My Services"
+        "services": "My Services",
+        "try_it": "Try It",
+        "learn_more": "Learn More"
     },
     "sr": {
         "made_with": "Sajt je napravljen sa",
         "home": "Početna",
         "writing": "Pisanje",
         "projects": "Projekti",
-        "services": "Moje Usluge"
+        "services": "Moje Usluge",
+        "try_it": "Isprobaj",
+        "learn_more": "Saznaj Više"
     }
 }
