@@ -3,7 +3,7 @@ title: Moje Usluge
 order: 1
 ---
 
-1. Kreiranje offline-first veb aplikacija, da ne biste gubili podatke na tereun. Za industrije "na terenu", kao što su šumarstvo, ili vlasnici teretana. **PWA, SPA, Offline-First.**
+1. Kreiranje offline-first veb aplikacija, da ne biste gubili podatke na terenu. Za industrije kao što su šumarstvo, ili vlasnike teretana. **PWA, SPA, Offline-First.**
 2. Izgradnja web stranica sa pričom koja privlači klijente. Za mala preduzeća koja prelaze online. **Landing page, SEO**.
 3. Reverse-engineering postojećih sistema u pouzdanije i lakeže verzije - ako ste zapeli sa postojećim softverom, i vam treba specijalna alternativa.
 

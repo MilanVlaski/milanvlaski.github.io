@@ -21,4 +21,4 @@
 - [x] Light/Dark switch
 - [ ] Switch to Deno?
 - [ ] Make the funny hamburger menu from zachleat.com
-- [ ] 
+- [ ] Automatski test koji provjerava typoe (github actions sigurno ima)

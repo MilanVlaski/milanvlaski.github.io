@@ -3,7 +3,7 @@ title: How I Can Help You
 order: 1
 ---
 
-1. Creating offline-first web apps to eliminate data loss in the field. For field-based industries, like foresters or gym owners. **PWA, SPA, Offline-First.**
+1. Creating offline-first web apps to eliminate data loss in the field. For foresters or gym owners. **PWA, SPA, Offline-First.**
 2. Building narrative driven landing pages to win more customers. For small businesses moving online. **Landing page, SEO**.
 3. Reverse-engineering existing systems into more reliable and lightweight versions - whether you're stuck with an existing tool, or need a custom alternative.
 
