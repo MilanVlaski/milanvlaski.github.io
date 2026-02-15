@@ -13,7 +13,7 @@ order: 1
 
 **Vrednost**: Vaši podaci se snimaju lokalno prvo i sinhronizuju kada ste nazad online. Bez izgubljenog vremena, nema "loading-a", samo čista produktivnost.
 
-[Primer]({{ "/projects" | locale_url }}#workout_logger)
+[Primjer]({{ "/projects" | locale_url }}#workout_logger)
 
 ## Landing Pages
 
@@ -24,7 +24,7 @@ Uspešno sam stekao veze, i privukao kupce i klijente svojim metodama, i spreman
 2. Korak 2 - Definišite glavnu poruku.
 3. Korak 3 - Odlučite se za neku od društvenih mreža.
 
-[Primer]({{ "/projects" | locale_url }}#etickethub)
+[Primjer]({{ "/projects" | locale_url }}#etickethub)
 
 ## Reverse Engineering
 

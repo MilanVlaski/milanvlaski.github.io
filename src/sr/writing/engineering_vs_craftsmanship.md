@@ -21,7 +21,7 @@ I često, ali ne uvek, to je zato što mogu osetiti da autor koda, osoba ili AI,
 
 Definišu suprotan proces, gde uzimamo sve male sirove delove podataka koji treba da se obrađuju u softverskom sistemu, i odredjujemo najjednostavnije rešenje da to uradimo. Što obično uključuje jednostavne protokole i postojeća rešenja, kao što su Linux, Bash, SQL, HTML, CSS, itd. To nam omogućava da prilagodimo rešenja, tako da dobijemo mnoogo manje linija koda.
 
-Međutim, to postaje manje razumljivo drugima. Prema definiciji, manje je razumljivo, jer danas, ako ne koristiš framework-ove, nitko ne zna, na primer, kako vanilla JavaScript radi. Ako znaš kako se koriste web komponente, možda ćeš primetiti da one mogu da učine tvoj frontend framework nepotrebnim.
+Međutim, to postaje manje razumljivo drugima. Prema definiciji, manje je razumljivo, jer danas, ako ne koristiš framework-ove, nitko ne zna, na Primjer, kako vanilla JavaScript radi. Ako znaš kako se koriste web komponente, možda ćeš primetiti da one mogu da učine tvoj frontend framework nepotrebnim.
 
 # Web kao osoba ove filozofije
 
