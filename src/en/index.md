@@ -21,8 +21,6 @@ I'm a minimalist. This results in:
 - Software with a smaller physical footprint, and fewer lines to read.
 - Saving time and money when writing and running code.
   
-Naturally, it's no good to be minimalistic in all circumstances. Nevertheless, minimalism is a common thread in my life, ever since I was young. It combines well with "going under the radar", offering many strategic advantages.
-
 ### Brief Technical History
 
 My particular interest for software engineering was sparked
