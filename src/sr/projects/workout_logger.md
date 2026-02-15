@@ -6,12 +6,13 @@ github_url: https://github.com/MilanVlaski/workout-log-demo
 title: Workout Logger
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
-description: Vebaplikacija za logovanje treninga bazirana na tekstu, sa pristupačnim interfejsom. Privremeni log se čuva unutar aplikacije, prikazan kao tekst. Sveska i olovka bi pružile bolje iskustvo, ali nisu lako da se nose u teretani, tako da ova vebaplikacija omogućava skladištenje logova na telefonu, i export treninga drugde, kao tekst.
+description: Veb aplikacija za zapisivanje treninga bazirana na tekstu, sa pristupačnim GUI-jem. Workout logovi mogu biti ili backup-ovani od strane korisnika (u Excel tablici), ili kao tekst. Dodatno, sistem može pružiti cloud backup.
 ---
-
 [Draw.Io Sketches](https://drive.google.com/file/d/1d-ZH9s9k2A0bmclrXqE7jhGuTIRHhg6i/view?usp=sharing)
 
- Veb aplikacija za logovanje treninga bazirana na tekstu, sa **pristupačnim** GUI-jem. Privremeni log se čuva unutar aplikacije, prikazan kao tekst. Workout logovi mogu biti ili backup-ovani od strane korisnika (u Excel tablici), ili kao tekst. Dodatno, sistem može pružiti cloud backup.
+ Veb aplikacija za zapisivanje treninga bazirana na tekstu, sa **pristupačnim** GUI-jem. Workout logovi mogu biti ili backup-ovani od strane korisnika (u Excel tablici), ili kao tekst. Dodatno, sistem može pružiti cloud backup.
+
+(Ovaj sadržaj preveden na Srpski korištenjem vještačke inteligencije)
 
  Sveska i olovka bi pružila bolje UX, ali nisu lako da se nose u teretani, tako da ova webapp omogućava skladištenje logova na telefonu, i export treninga drugde, kao tekst.
 

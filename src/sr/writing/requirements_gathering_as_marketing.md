@@ -1,7 +1,7 @@
 ---
 title: Prikupljanje zahteva kao marketing
 ---
-(Objava prevedena na Srpski korištenjem vještačke inteligencije)
+(Ovaj sadržaj preveden na Srpski korištenjem vještačke inteligencije)
 
 Programeri treba da koriste prikupljanje zahteva kao marketing, i ja ću vam pokazati kako.
 

@@ -1,7 +1,7 @@
 ---
 title: AI Arhitekta i Programer
 ---
-(Objava prevedena na Srpski korištenjem vještačke inteligencije)
+(Ovaj sadržaj preveden na Srpski korištenjem vještačke inteligencije)
 
 AI Arhitekta je odmražavao u tihom obalnom gradu kad primetio lokalnog Developera kako sedi u kafiću, koda na svom laptopu. Na ekranu je bilo prelepom strukturisana, minimalist veb aplikacija.
 

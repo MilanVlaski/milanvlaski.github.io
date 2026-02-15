@@ -6,17 +6,15 @@ prod: true
 title: eTicket Hub
 thumbnail: /assets/img/etickethub.png
 thumbnail_orientation: landscape
-description: Korišćen u nemačkom transportu danas, ovaj sistem izdaje karte, i pruža klijentima na mobilnoj aplikaciji. Služi desetine Operatera Javnog Prevoza, i njihovim korisnicima.
+description: Korišćen u nemačkom transportu danas, ovaj sistem izdaje karte, i izdaje ih klijentima na mobilnoj aplikaciji. Služi desetini Operatera Javnog Prevoza, i njihove korisnike.
 ---
-Korišćen u nemačkom transportu **danas**, ovaj sistem izdaje karte, i pruža klijentima na mobilnoj aplikaciji. Služi desetine Operatera Javnog Prevoza, i njihovim korisnicima.
-- Podelio sam legacy monolitni backend u mikrservise.
-- Integrisao *Motics* na backendu - omogućavajući da karte budu
-vezane za uređaje korisnika, sprečavajući krađu.
-- Testirao kritičnu poslovnu logiku, sa end to end testovima i
-unit testovima.
+Korišćen u nemačkom transportu **danas**, ovaj sistem izdaje karte, i izdaje ih klijentima na mobilnoj aplikaciji. Služi desetini Operatera Javnog Prevoza, i njihovim korisnicima.
+- Razlošio sam legacy monolitni backend u mikroservise.
+- Integrisao *Motics* na backendu - omogućavajući da karte budu vezane za uređaje korisnika, sprečavajući krađu.
+- Testirao kritičnu poslovnu logiku, sa end-to-end testovima i unit testovima.
 - Integrisao sa Google Wallet, omogućavajući korisnicima da drže karte u poznatoj aplikaciji.
-- Prepravio stilizaciju za demo shop, da prikaže nove funkcije budućim klijentima.
-- Kreirao kratke video zapise za društvene mreže, i landing page da prikaže demone, prikazujući ceo timski rad.
+- Prepravio stilizaciju za demo shop, da prikaže novu funkcionalnost budućim klijentima.
+- Kreirao kratke video zapise za društvene mreže, i landing page da prikaže demonstracije aplikacije, prikazujući rad cijele naše ekipe.
 
 Tehnologije: Kotlin, Gradle, Bash, Ktor, Micronaut, Spring Boot,
 Google App Engine, MySQL, HTML, CSS

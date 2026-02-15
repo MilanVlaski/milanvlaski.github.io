@@ -1,7 +1,7 @@
 ---
 title: Vanilla JS Daje Pravi Arhitektonsku Slobodu
 ---
-(Objava prevedena na Srpski korištenjem vještačke inteligencije)
+(Ovaj sadržaj preveden na Srpski korištenjem vještačke inteligencije)
 
 Vanilla Javascript omogućava besprekornu arhitektonsku tranziciju između različitih paradigmi, po želji.
 

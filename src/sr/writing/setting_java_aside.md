@@ -1,7 +1,7 @@
 ---
 title: Zašto ostavljam Javu za sad
 ---
-(Objava prevedena na Srpski korištenjem vještačke inteligencije)
+(Ovaj sadržaj preveden na Srpski korištenjem vještačke inteligencije)
 
  Zašto sam na početku volio Javu:
 
