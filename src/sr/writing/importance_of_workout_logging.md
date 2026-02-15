@@ -1,7 +1,6 @@
 ---
-title: Zašto Treba da Vodiš Zapisnik o Treningovima
----
+title: Važnost Zapisivanja Treninga
+---  
+> Ako dižete više danas, nego juče, postajete jači - podrazumijevajući da su intenzitet, forma i broj ponavljanja ostali isti.
 
-> Ako danas podigneš više teažine nego što si juče podigao, postaješ jači. uzmavši u obzir da faktori kao što su intenzitet, forma i ponavljanja ostaju isti.
-
-Efikasnost pisanja vaših treningova, za cilj da postanete jači, je zasnovana na jednostavnom principu iznad.
+Ova činjenica sama opravdava zapisivanje treninga!
