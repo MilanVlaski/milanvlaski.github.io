@@ -10,7 +10,7 @@ Hi! I'm Milan Vlaški, a programmer. You might care to check out my:
 
 *   [Writing]({{"/writing" | locale_url }})
 *   [Projects]({{"/projects" | locale_url }})
-*   [My Services]({{"/writing/my_work" | locale_url }})
+*   [Services]({{"/writing/my_work" | locale_url }})
 
 ## Technical interests
 

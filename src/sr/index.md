@@ -5,11 +5,11 @@ layout: index_layout.liquid
 
 <img src="/assets/img/me.jpg" alt="Portret Milana Vlaškog, kreatora ovog sajta">
 
-Zdravo! Ja sam Milan Vlaški, programer. Možda vas interesuje da pogledate:
+Zdravo! Ja sam Milan Vlaški, programer. Možda vas interesuje da pogledate moje:
 
 *   [Pisanje]({{"/writing" | locale_url }})
 *   [Projekte]({{"/projects" | locale_url }})
-*   [Moje Usluge]({{"/writing/my_work" | locale_url }})
+*   [Usluge]({{"/writing/my_work" | locale_url }})
 
 ## Tehnički interesi
 
