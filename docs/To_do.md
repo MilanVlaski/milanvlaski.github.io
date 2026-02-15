@@ -18,7 +18,8 @@
   - [x] Translate
 - [x] Change "Demo" to "Try it" and "Isprobaj", and leave "Demonstration" for actual video demonstrations.
 - [x] Language dropdown
-- [ ] Light/Dark switch
+- [x] Light/Dark switch
+- [ ] Switch to Deno?
 - [ ] 
 
 
