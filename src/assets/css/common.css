@@ -19,7 +19,8 @@ h6,
 p,
 dl,
 dt,
-dd {
+dd,
+pre {
     margin: 0;
     padding: 0;
 }
@@ -161,7 +162,6 @@ body {
 :root {
     color-scheme: light dark;
     scrollbar-gutter: stable;
-
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: clamp(16px, 0.5vw + 12px, 24px);
 
@@ -177,6 +177,12 @@ body {
     --input-spacing: 1rem;
     
     --transition-fast: 50ms;
+}
+
+svg {
+    fill: currentColor;
+    width: 1rem;
+    margin-inline-end: 0.2rem;
 }
 
 a {
