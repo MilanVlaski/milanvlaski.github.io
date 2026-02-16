@@ -55,7 +55,7 @@ summary {
 
 p, ul, ol {
     line-height: 1.5;
-    margin-bottom: 1rem;
+    margin-block-end: var(--input-spacing);
 }
 
 h1,
@@ -170,6 +170,7 @@ body {
     --input-border-radius: 4px;
     --input-padding-inline: 1em;
     --input-height: 2.5rem;
+    --input-spacing: 1rem;
     
     --transition-fast: 50ms;
 }
@@ -438,6 +439,8 @@ button, .button, input[type='submit'], input[type='button'], input[type='reset']
     background-color: var(--button-background);
 
     transition: var(--transition-fast) background-color, var(--transition-fast) color, var(--transition-fast) border, var(--transition-fast) box-shadow;
+
+    margin-block-end: var(--input-spacing);
 }
 
 /* input - keeping this close as it has a lot of similarities with button */
@@ -454,6 +457,8 @@ input, select {
     color: currentColor;
     border-color: var(--input-border-color);
     background-color: var(--color-neutral-50);
+
+    margin-block-end: var(--input-spacing);
 }
 
 select {
@@ -601,10 +606,6 @@ select {
 /* button */
 
 /* form */
-form > * + * {
-    margin-block-start: 0.75rfem;
-}
-
 form input:not([type="checkbox"]):not([type="radio"]), 
 form select, 
 form textarea,
@@ -617,6 +618,31 @@ label {
     margin-block-end: 0.3rem;
 }
 /* form */
+
+/* card */
+.card {
+    background-color: var(--color-neutral-50);
+    border-color: var(--input-border-color);
+
+    border-style: solid;
+    border-width: var(--input-border-width);
+    border-radius: var(--input-border-radius);
+    padding-inline: var(--input-spacing);
+    box-shadow: 0 1px 2px oklch(from var(--color-neutral-500) l c h / 0.06);
+}
+
+[data-theme='dark'] .card {
+    background-color: var(--color-neutral-200);
+    border-color: var(--color-neutral-300);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .card {
+    background-color: var(--color-neutral-200);
+    border-color: var(--color-neutral-300);
+  }
+}
+/* card */
 
 /* site */
 footer  select {
