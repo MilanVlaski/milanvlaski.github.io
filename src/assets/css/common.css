@@ -619,9 +619,19 @@ label {
 /* form */
 
 /* site */
-nav select {
+footer  select {
     height: 2rem;
     padding-inline-start:0.6em;
     padding-inline-end: 2rem;
+}
+
+footer {
+    display: flex;
+     justify-content: space-between;
+      align-items: center;
+}
+
+footer > * {
+    align-self: baseline;
 }
 /* site */

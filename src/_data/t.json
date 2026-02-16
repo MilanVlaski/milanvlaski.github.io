@@ -10,8 +10,8 @@
         "language": "Stranica dostupna i na:",
         "system": "System",
         "light": "Light",
-        "dark": "Dark"
-
+        "dark": "Dark",
+        "theme": "Theme"
     },
     "sr": {
         "made_with": "Sajt je napravljen sa",
@@ -24,6 +24,7 @@
         "language": "Page available in:",
         "system": "Sistem",
         "light": "Svijetlo",
-        "dark": "Tamno"
+        "dark": "Tamno",
+        "theme": "Tema"
     }
 }

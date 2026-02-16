@@ -1,3 +1,13 @@
 <footer class="container">
-   {{ t[lang].made_with }} <a href="https://www.11ty.dev/" target="_blank">11ty</a>
+   <theme-select>
+      <label style="display: inline;" for="theme-select">{{t[lang].theme}}:</label>
+      <select name="theme-select" id="theme-select">
+         <option value="system">{{t[lang].system}}</option>
+         <option value="light">{{t[lang].light}}</option>
+         <option value="dark">{{t[lang].dark}}</option>
+      </select>
+   </theme-select>
+   <span>
+      {{ t[lang].made_with }} <a href="https://www.11ty.dev/" target="_blank">11ty</a>
+   </span>
 </footer>
