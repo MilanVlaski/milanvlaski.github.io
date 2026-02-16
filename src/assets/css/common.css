@@ -596,7 +596,7 @@ select {
 }
 
 .button-group > *:not(.outline):not(:first-child) {
-    border-left: 1px solid var(--color-neutral-700);
+    border-left: var(--input-border-width) solid var(--input-border-color);
 }
 
 :is(button, .button, input[type='submit'], input[type='button'], input[type='reset'], input[type='image']).small {
