@@ -6,10 +6,10 @@ module.exports = async function (eleventyConfig) {
     errorMode: "allow-fallback",
   })
 
-  // Copy CSS files to the output directory
-  eleventyConfig.addPassthroughCopy("src/about-me.css")
-  eleventyConfig.addPassthroughCopy("src/me.jpg")
-  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/assets")
+  // TODO temporarily copy only the favicon, so that later I can have 
+  // the full "PWA" in my <head> as well as copied into root.
+  eleventyConfig.addPassthroughCopy({"src/root/favicon.ico": "/favicon.ico"})
 
 
   // We use the prefix to fetch by language
