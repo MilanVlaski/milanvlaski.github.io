@@ -11,7 +11,13 @@
         "system": "System",
         "light": "Light",
         "dark": "Dark",
-        "theme": "Theme"
+        "theme": "Theme",
+        "contact": {
+            "heading": "Contact me",
+            "email": "Your Email",
+            "content": "Your Message",
+            "send": "Send"
+        }
     },
     "sr": {
         "made_with": "Sajt je napravljen sa",
@@ -25,6 +31,12 @@
         "system": "Sistem",
         "light": "Svijetlo",
         "dark": "Tamno",
-        "theme": "Tema"
+        "theme": "Tema",
+        "contact": {
+            "heading": "Kontaktirajte me",
+            "email": "E-mail adresa",
+            "content": "Vaša poruka",
+            "send": "Pošalji"
+        }
     }
 }

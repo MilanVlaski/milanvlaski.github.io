@@ -33,3 +33,6 @@ I've successfuly gained connections, and attracted customers and clients with my
 If your current software feels like a chore, let’s replace it. If you see a piece of software, and wish you had it, we can work together to create it from scratch, and make it even lighter than the original!
 
 Perfect for government or small businesses stuck in "Excel Hell" or bloated SaaS subscriptions. Save hours of frustration by using a tool built exactly for your workflow.
+
+## {{ t[lang].contact.heading }}
+{% include "contact_form.liquid" %}

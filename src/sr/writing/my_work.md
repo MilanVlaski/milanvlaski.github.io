@@ -33,3 +33,6 @@ Uspešno sam stekao veze, i privukao kupce i klijente svojim metodama, i spreman
 Ako vam trenutni softver izgleda kao muka, mijenjajmo ga! A ako vidite neki softver, i želite da ga imate, možemo zajedno da ga kreiramo od nule, i učinimo ga još lakšim od originala!
 
 Savršeno za vlade ili mala preduzeća koji su u "Excel paklu" ili naduvanim pretplatama. Sačuvajte sate frustracije koristeći alat napravljen tačno za vaš rad.
+
+## {{ t[lang].contact.heading }}
+{% include "contact_form.liquid" %}

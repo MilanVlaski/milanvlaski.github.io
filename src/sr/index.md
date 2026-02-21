@@ -41,7 +41,7 @@ Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na
 </figure>
 -->
 
-#### Linkovi
-
-*   <a href="https://github.com/milanvlaski" target="_blank">GitHub</a>
-*   <a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a>
+#### Kontakt
+- <a href="{{ "/contact" | locale_url }}">Mejl</a>
+- <a href="https://github.com/milanvlaski" target="_blank">GitHub</a>
+- <a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a>

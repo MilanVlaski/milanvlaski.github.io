@@ -53,7 +53,7 @@ I enjoy writing essays, and bodybuilding. I play an MMORPG called Albion Online.
 </figure>
 -->
 
-#### Links
-
-*   <a href="https://github.com/milanvlaski" target="_blank">GitHub</a>
-*   <a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a>
+#### Contact me
+- <a href="{{ "/contact" | locale_url }}">Email</a>
+- <a href="https://github.com/milanvlaski" target="_blank">GitHub</a>
+- <a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a>
