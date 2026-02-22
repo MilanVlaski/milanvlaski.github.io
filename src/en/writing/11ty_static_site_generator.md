@@ -3,7 +3,7 @@ title: 11ty Is Cool
 ---
 
 <figure style="float: right">
-<img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="height: 20rem;">
+<a href="https://www.11ty.dev/" target="_blank"><img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="height: 20rem;"></a>
 <figcaption style="text-align: center;">11ty mascot</figcaption>
 </figure>
 
