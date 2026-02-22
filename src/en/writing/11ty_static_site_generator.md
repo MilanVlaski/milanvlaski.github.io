@@ -2,7 +2,10 @@
 title: 11ty Is Cool
 ---
 
-<img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="float: right; height: 20rem;">
+<figure style="float: right">
+<img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="height: 20rem;">
+<figcaption style="text-align: center;">11ty mascot</figcaption>
+</figure>
 
 Eleventy is a static site generator. It allows websites to be *rendered at build time*. This differentiates it from:
 - classic PHP apps, which do runtime rendering.
