@@ -2,6 +2,8 @@
 title: 11ty Is Cool
 ---
 
+<img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="float: right; height: 20rem;">
+
 Eleventy is a static site generator. It allows websites to be *rendered at build time*. This differentiates it from:
 - classic PHP apps, which do runtime rendering.
 - Also from whatever React users call Server Side Rendering (SSR) nowadays, time of writing 2026.

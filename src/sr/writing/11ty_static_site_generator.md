@@ -6,7 +6,7 @@ Evo prevoda tvog teksta na srpski jezik, koristeći ijekavicu i zadržavajući t
 
 ---
 
-## title: 11ty je baš kul
+<img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="float: right; height: 20rem;">
 
 Eleventy je generator statičkih sajtova. On omogućava da se veb-sajtovi **renderuju u vrijeme izgradnje** (*build time*). To ga razlikuje od:
 
