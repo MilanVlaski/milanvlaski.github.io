@@ -1,42 +1,40 @@
 ---
 title: Inženjerstvo i Zanat
 ---
-(Ovaj sadržaj preveden na Srpski korištenjem vještačke inteligencije)
+## Softversko inženjerstvo protiv softverskog zanatstva
 
-Razmotrimo programiranje kao inženjerstvo, ili kao zanatlijanstvo, ili umetnost. Verujem da ono što vidimo sa LLM-ima uzemljuje ubrzava inženjersku stranu. Prvo, definišimo šta je softversko inženjerstvo. Dakle, softversko inženjerstvo je *u osnovi* uzimanje nečeg što je već poznato iz nauke, iskustva ili najbolje prakse, i samo primena na problem naoružan. U 90% slučajeva, više je "najbolja praksa" nego stvarna nauka, ali u principu, to je inženjerstvo.
+Razmislimo o programiranju kao o inženjerstvu, zanatstvu ili umjetnosti. Vjerujem da ovo što vidimo sa LLM-ovima zapravo ubrzava ovu stranu softverskog inženjerstva. Prvo, hajde da definišemo šta je to softversko inženjerstvo. Dakle, to je *u suštini* uzimanje nečega što je već poznato iz nauke, iskustva ili najbolje prakse, i puko primjenjivanje na problem koji je pred nama. U 90% slučajeva, to je više "najbolja praksa" nego stvarna nauka, ali u principu, to je ono što inženjerstvo jeste.
 
-Ako se to vodi do ekstrema, proizvodi ekstremno dosadno i uvek komplikovano kodiranje. Uvek je složenije nego što treba biti jer ne gradi od niskog nivoa komponenti, u minimalistu sortu koda i rešenja.
+Ako se odvede u ekstrem, ono proizvodi izuzetno dosadan i uvijek komplikovan kod. Uvijek komplikovaniji nego što treba da bude, jer nije izgrađen od niskonivojskih komponenti u minimalistički kod i rješenje.
 
-Prati proces, ah, imaš bezbednost, dobro, treba da koristiš ovu biblioteku. Ako imaš, hm, ne znam, backend, treba da koristiš ovaj framework, itd. Ako imaš frontend, trebaš da koristiš ovo. Zvuči kao solidan savet, ali nikada nije minimalist. Savršeno je u redu, ali je ekstremno dosadno i teško pojmivo za ljude zbog ogromne veličine i konceptualnog puntanja, jer svaki framework ili "velika biblioteka", koristi koncepte koje moraš da znaš. Naravno, u teoriji, lako ih je uhvatiti, jer se koncepti ponavljaju, itd, ali ako nema dodatnih koncepta, onda nema ništa novo za naučiti! To je manje kognitivnog napora!
+Prati proces tipa: "Aha, treba ti sigurnost? Okej, treba da koristiš ovu biblioteku." I ako imaš, ne znam, backend, treba da koristiš ovaj framework, i tako dalje. Ako imaš frontend, koristi ovo. To zvuči kao solidan savjet, ali nikada nije minimalistički. Savršeno je korektno, ali je užasno dosadno i ljudima teško za razumijevanje zbog same veličine i konceptualne naduvanosti — jer svaki framework ili "velika biblioteka" koristi koncepte koje moraš da poznaješ. Naravno, u teoriji ih je lako savladati jer se koncepti ponavljaju, ali ako nema suvišnih koncepata, onda nemaš šta novo ni da učiš! To je manji kognitivni napor!
 
-To je isti tip napora koji ide u opravdanje kupovine nečega što ne možemo da priuštimo. Beskorisno je, protiv surove logike: 0$ prodatih, plus naučiti nešto novo, uvek se isplati, i je "recesiono otporan".
+To je ista vrsta napora koji ulažemo opravdavajući kupovinu nečega što ne možemo sebi da priuštimo. Beskorisno je, nasuprot sirove logike: 0 potrošenih dolara plus učenje nečeg novog se uvijek isplati i otporno je na recesiju.
 
-Tu dolaze LLM-ovi. Dakle, za mene, puno mojih iskustava sa AI generisanim kodom je kao sa ljudskim kodom, samo je,
+Tu nastupaju LLM-ovi. Za mene, veliki dio mog iskustva sa kodom koji je napisala vještačka inteligencija je isti kao i sa ljudskim kodom:
 
-> Ovo čak i nije vredno čitanja. Radije bih ga napravio.
+> Ovo nije vrijedno ni čitanja. Radije bih to sam napravio.
 
-I često, ali ne uvek, to je zato što mogu osetiti da autor koda, osoba ili AI, je zaražen nekim načinom razmišljanja o kodu sa kojim se ne slažem. Glavni krivac biće Java. Vidi [Zašto odbacujem Javu]({{ "/writing/setting_java_aside" | locale_url }}).
+I često, mada ne uvijek, to je zato što osjećam da je autor koda, bilo čovjek ili AI, zaražen nekim načinom razmišljanja o kodu sa kojim se ne slažem. Glavni krivac je Java. Pogledaj tekst [Zašto ostavljam Javu po strani]({{ "/writing/setting_java_aside" | locale_url }}).
 
-# Bolji proces
+## Bolji proces
 
-Definišu suprotan proces, gde uzimamo sve male sirove delove podataka koji treba da se obrađuju u softverskom sistemu, i odredjujemo najjednostavnije rešenje da to uradimo. Što obično uključuje jednostavne protokole i postojeća rešenja, kao što su Linux, Bash, SQL, HTML, CSS, itd. To nam omogućava da prilagodimo rešenja, tako da dobijemo mnoogo manje linija koda.
+Ja bih definisao suprotan proces, gdje uzmemo sve one sitne, sirove djeliće podataka koje treba obraditi u softverskom sistemu i smislimo najjednostavnije rješenje za to. To obično uključuje jednostavne protokole i postojeća rješenja, kao što su Linux, Bash, SQL, HTML, CSS, itd. Ovo nam omogućava da prilagodimo rješenja tako da dobijemo mnogo manje linija koda.
 
-Međutim, to postaje manje razumljivo drugima. Prema definiciji, manje je razumljivo, jer danas, ako ne koristiš framework-ove, nitko ne zna, na Primjer, kako vanilla JavaScript radi. Ako znaš kako se koriste web komponente, možda ćeš primetiti da one mogu da učine tvoj frontend framework nepotrebnim.
+Međutim, ovo na kraju bude manje razumljivo drugima. Po definiciji je manje razumljivo jer danas, ako ne koristiš frameworke, niko ne zna kako, na primjer, funkcioniše običan (vanilla) JavaScript. Ako znaš kako da koristiš veb komponente (Web Components), primijetićeš da one mogu tvoje frontend frameworke učiniti suvišnim.
 
-# Web kao osoba ove filozofije
+## Veb kao otjelovljenje ove filozofije
 
-Ono što čini web u kombinaciji sa browserom, super moćnim je to da je to tekstualno baziran GUI. Možete da igrate sa HTML/CSS kako god želite, i da se na kraju nađete sa funkcionalnim skupom UI widget-a. Ne znam dovoljno o softverskoj istoriji da kažem da je ovo nečuveno, ali činjenica da vidimo toliko "build alata" za frontend, govori da ljudi ne cene magiju weba. Sjeća na Unix filozofiju, koja kaže da je "tekst univerzalni interfejs". Zaista, zaista. Da li znaš da možeš da koristiš bash skripte kao build alat za static site generator? Tako sam napravio moj blog sajt, nakon neuspjeha da ga napravim sa Jekyllom.
+Ono što veb, u kombinaciji sa pregledačem, čini nevjerovatno moćnim jeste to što je on tekstualni GUI. Možeš da se igraš sa HTML-om i CSS-om kako god želiš i završiš sa funkcionalnim skupom UI elemenata. Ne znam dovoljno o istoriji softvera da bih rekao da je ovo nečuveno, ali činjenica da vidimo toliko alata za build (build tools) na frontendu govori o tome da ljude nije briga za magiju veba. To podsjeća na Unix filozofiju koja kaže da je "tekst univerzalni interfejs". Upravo tako.
 
-# Nazad na inženjerstvo
+## Povratak na inženjerstvo
 
-Ali, nije kao da urađivanje softverskog inženjerstva znači da, oh, znaš, treba da izgradiš 100% svega od nule. Samo mislim da više zanatlijanstva je zabavnije. Ako je moguće da se plati za više zabave, onda hoću da to radim. To nije ništa drugo. Ušao sam u programiranje zato što sam želeo da živim od toga, ali sam onda otkrio šta je softversko inženjerstvo, i video da je krajnji cilj inženjerstva da ima repozitorijum najboljih praksi i da se uvek one koriste. I to je vrlo dosadno. I ja, ja, ja, pokušavam da ne budem dosadan čovek. Pokušavam da budem kreativan i pametan, tako da nije da je inženjerstvo loše, zanatlijanstvo dobro. Trebaš oboje. I svaki softverski inženjer je mali zanatlijan.
+Ipak, nije stvar u tome da bavljenje softverskim inženjerstvom znači da treba 100% svega graditi od nule. Samo mislim da je zanatstvo zabavnije. A ako je moguće biti plaćen za nešto što je zabavnije, onda to želim da radim. Ne radi se ni o čemu drugom. Ušao sam u programiranje jer sam htio da živim od toga, ali onda sam saznao šta je softversko inženjerstvo i vidio da je krajnji cilj inženjerstva posjedovanje repozitorijuma najboljih praksi koje se uvijek iznova koriste. Što je veoma dosadno. A ja se trudim da ne budem dosadna osoba. Trudim se da budem kreativan i snalažljiv, tako da nije poenta u tome da je inženjerstvo loše, a zanatstvo dobro. Potrebno je oboje. Svaki softverski inženjer je pomalo i zanatlija.
 
-Pa, lično ja želim da budem zanatlijan. Želim da kreiram softver i želim da ga pokažem ljudima. I želim da ti ljudi budu kao, vau, ovo je kul. Radije nego, hm, da imam posao gde se ovaj zanatlijanski aspekt ne priznaje. Više je na inženjerskoj strani, ali svi znamo to.
+Samo što ja lično želim da budem zanatlija. Želim da pravim softver i da ga pokazujem ljudima. I želim da ti ljudi kažu: "Vau, ovo je baš kul."
 
-Da bi programer radio stvari, da je dobar, da je dobro plaćen, da je ekspert, mora biti zanatlijan, bar u svom slobodnom vremenu. A puno programera programira u slobodnom vremenu, to je duboko u našoj kulturi.
+Da bi programer radio stvari kako treba, da bi bio dobar, dobro plaćen i stručnjak, on mora biti zanatlija, barem u slobodno vrijeme. A mnogi programeri programiraju u slobodno vrijeme — to je duboko u našoj kulturi.
 
-Mnogi, mnogi, mnogi programeri su zanatlijani sa strane, i moraju biti, jer ne možeš tu zanatlijanstvo iz progamiranja. Uvek moraš. Uvek moraš da ga povežeš na neki način. To je ljudski faktor. To je faktor koji ne dozvoljava AI da sve uradi za nas, jer samo **mi** možemo da povežemo softverske "bitove", i da im damo smisao.
+Citiraću Bakija (Baki the Grappler):
 
-Uzimam citat iz Baki, grapple-r:
-
-> Onaj koji radi naporno, nikada ne može da porazi onog koji uživa samom sebi.
+> Onaj koji naporno radi nikada ne može pobijediti onoga koji uživa.

@@ -19,6 +19,7 @@
 - [x] Change "Demo" to "Try it" and "Isprobaj", and leave "Demonstration" for actual video demonstrations.
 - [x] Language dropdown
 - [x] Light/Dark switch
+- [ ] Use oat.ink for CSS, but create my own theme. Theme switcher has to still work. Switches between dark/light.
 - [ ] Switch to Deno?
 - [ ] Make the funny hamburger menu from zachleat.com
 - [ ] Automatski test koji provjerava typoe (github actions sigurno ima)
