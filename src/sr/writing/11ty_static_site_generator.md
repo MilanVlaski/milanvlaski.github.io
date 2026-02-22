@@ -10,6 +10,7 @@ Evo prevoda tvog teksta na srpski jezik, koristeći ijekavicu i zadržavajući t
 <img src="/assets/img/11ty_mascot.avif" alt="11ty Mascot" style="height: 20rem;">
 <figcaption style="text-align: center;">11ty mascot</figcaption>
 </figure>
+
 Eleventy je generator statičkih sajtova. On omogućava da se veb-sajtovi **renderuju u vrijeme izgradnje** (*build time*). To ga razlikuje od:
 
 * **Klasičnih PHP aplikacija**, koje renderovanje rade u realnom vremenu (*runtime*).
