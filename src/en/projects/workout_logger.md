@@ -6,12 +6,12 @@ github_url: https://github.com/MilanVlaski/workout-log-demo
 title: Workout Logger
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
-description: Text based workout logging app, with an accessible interface. A temporary log is kept inside the app, shown as text. A notebook and pen would provide better use, but they're not easy to carry in a gym, so this webapp allows storing logs on your phone, and exporting the workout elsewhere, as text.
+description: Text based workout logging app, which prevents 'fat-finger' errors. A temporary log is kept inside the app, shown as text. A notebook and pen would provide better use, but they're not easy to carry in a gym, so this webapp allows storing logs on your phone, and exporting the workout elsewhere, as text.
 ---
 
 [Draw.Io Sketches](https://drive.google.com/file/d/1d-ZH9s9k2A0bmclrXqE7jhGuTIRHhg6i/view?usp=sharing)
 
- Text based workout logging app, with an **accessible** GUI. A temporary log is kept inside the app, shown as text. Workout logs can be either backed up by the user (in an Excel sheet), or as text. Aditionally, the system may provide cloud backup.
+Text based workout logging app, which prevents 'fat-finger' errors. A temporary log is kept inside the app, shown as text. Workout logs can be either backed up by the user (in an Excel sheet), or as text. Aditionally, the system may provide cloud backup.
  
 A notebook and pen would provide better UX, but they're not easy to carry in a gym, so this webapp allows storing logs on your phone, and exporting the workout elsewhere, as text.
 
