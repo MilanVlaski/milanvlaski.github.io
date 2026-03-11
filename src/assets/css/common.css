@@ -456,7 +456,9 @@ button, .button, input[type='submit'], input[type='button'], input[type='reset']
 /* input - keeping this close as it has a lot of similarities with button */
 input, select {
     height: var(--input-height);
+}
 
+input, select, textarea {
     border-style: solid;
     border-width: var(--input-border-width);
     border-color: var(--input-border-color);
@@ -469,6 +471,10 @@ input, select {
     background-color: var(--color-neutral-50);
 
     margin-block-end: var(--input-spacing);
+}
+
+textarea {
+    padding-block: 0.5rem;
 }
 
 select {
