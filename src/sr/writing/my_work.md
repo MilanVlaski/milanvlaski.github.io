@@ -9,7 +9,7 @@ meta:
 2. Izgradnja web stranica sa pričom koja privlači klijente. Za mala preduzeća koja prelaze online. **Landing page, SEO**.
 3. Rekonstrukcija postojećih sistema u pouzdanije i lakše verzije - ako ste zapeli sa postojećim softverom, i treba vam specijalna alternativa.
 
-## Oflajn aplikacije
+<h2 id="offline">Oflajn aplikacije</h2>
 
 Prestanite da se brinete o Wi-Fi-u. Ja gradim Progressive Web Apps (PWAs) projektovane specifično za unos podataka sa **masnim prstima** 😅, ili daleko od mreže.
 

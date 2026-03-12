@@ -9,7 +9,7 @@ meta:
 2. Building narrative driven landing pages to win more customers. For small businesses moving online. **Landing page, SEO**.
 3. Reverse-engineering existing systems into more reliable and lightweight versions - whether you're stuck with an existing tool, or need a custom alternative.
 
-## Offline-first Apps
+<h2 id="offline">Offline-first Apps</h2>
 
 Stop worrying about Wi-Fi. I build Progressive Web Apps (PWAs) designed specifically for entry with **greasy fingers** 😅, or away from internet.
 

@@ -1,8 +1,8 @@
 ---
 order: 1
 prod: true
-try_it: https://milanvlaski.github.io/workout-log-demo/
-github_url: https://github.com/MilanVlaski/workout-log-demo
+try_it: https://milanvlaski.github.io/workout-logger/
+github_url: https://github.com/MilanVlaski/workout-logger
 title: Workout Logger
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
