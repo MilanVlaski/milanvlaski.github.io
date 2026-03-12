@@ -15,7 +15,7 @@ Stop worrying about Wi-Fi. I build Progressive Web Apps (PWAs) designed specific
 
 Your data is saved locally first and syncs when you’re back online. No lost progress and no "spinning wheels".
 
-[Example]({{ "/projects" | locale_url }}#workout_logger)
+[Try the demo]({{ "/projects" | locale_url }}#workout_logger)
 
 ## Landing Pages
 
@@ -26,7 +26,7 @@ I've successfuly gained connections, and attracted customers and clients with my
 2. Step 2 - Define the core message.
 3. Step 3 - Decide the (social) media for the message.
 
-[Example]({{ "/projects" | locale_url }}#etickethub)
+[View example]({{ "/projects" | locale_url }}#etickethub)
 
 ## Reverse Engineering
 

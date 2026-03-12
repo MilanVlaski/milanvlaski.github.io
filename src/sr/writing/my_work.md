@@ -15,7 +15,7 @@ Prestanite da se brinete o Wi-Fi-u. Ja gradim Progressive Web Apps (PWAs) projek
 
 Vaši podaci se snimaju lokalno prvo i sinhronizuju kada ste nazad online. Bez izgubljenog vremena i bez "loading-a".
 
-[Primjer]({{ "/projects" | locale_url }}#workout_logger)
+[Vidi kako radi]({{ "/projects" | locale_url }}#workout_logger)
 
 ## Prezentacione stranice
 
@@ -26,7 +26,7 @@ Uspešno sam stekao veze, i privukao kupce i klijente svojim metodama, i spreman
 2. Korak 2 - Definišite glavnu poruku.
 3. Korak 3 - Odlučite se za neku od društvenih mreža.
 
-[Primjer]({{ "/projects" | locale_url }}#etickethub)
+[Vidi primjer]({{ "/projects" | locale_url }}#etickethub)
 
 ## Rekonstruisanje sistema
 
