@@ -3,8 +3,6 @@ title: O meni
 layout: index_layout.liquid
 ---
 
-<img src="/assets/img/me.jpg" alt="Portret Milana Vlaškog, kreatora ovog sajta">
-
 Zdravo! Ja sam Milan Vlaški, programer. Možda vas interesuje da pogledate moje:
 
 *   [Pisanje]({{"/writing" | locale_url }})
@@ -40,8 +38,3 @@ Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na
     <figcaption>My Favorite Character From the Blue Lock Manga</figcaption>
 </figure>
 -->
-
-#### Kontakt
-- <a href="{{ "/contact" | locale_url }}">Mejl</a>
-- <a href="https://github.com/milanvlaski" target="_blank">GitHub</a>
-- <a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a>

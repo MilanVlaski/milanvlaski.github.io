@@ -4,8 +4,6 @@ layout: index_layout.liquid
 permalink: /index.html
 ---
 
-<img src="/assets/img/me.jpg" alt="Portrait of Milan Vlaški, the creator of this site">
-
 Hi! I'm Milan Vlaški, a programmer. You might care to check out my:
 
 *   [Writing]({{"/writing" | locale_url }})
@@ -52,8 +50,3 @@ I enjoy writing essays, and bodybuilding. I play an MMORPG called Albion Online.
     <figcaption>My Favorite Character From the Blue Lock Manga</figcaption>
 </figure>
 -->
-
-#### Contact me
-- <a href="{{ "/contact" | locale_url }}">Email</a>
-- <a href="https://github.com/milanvlaski" target="_blank">GitHub</a>
-- <a href="https://linkedin.com/in/milan-vlaski/" target="_blank">LinkedIn</a>
