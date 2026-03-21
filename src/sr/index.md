@@ -28,7 +28,7 @@ Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na
 
 *Trenutno*, pokušavam da prokrčim svoj put kao programer, uvijek pokušavajući da otkrijem da li je neki softverski alat potreban ili nije.
 
-Pročitajte još o meni u mom <a href="https://milanvlaski.github.io/cv/" target="_blank">CV</a>-u.
+Pročitajte još o meni u mom <a href="https://milanvlaski.github.io/cv/sr/" target="_blank">CV</a>-u.
 
 ## Životni interesi
 
