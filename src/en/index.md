@@ -40,6 +40,8 @@ the [architectural freedom]({{"/writing/vanilla_js_architecture" | locale_url }}
 
 *Currently*, I'm trying to carve my own path as a programmer, always trying to see for myself whether a software tool is necessary, or not.
 
+Read more about my experience in my <a href="https://milanvlaski.github.io/cv/" target="_blank">resume</a>.
+
 ## Life interests
 
 I enjoy writing essays, and bodybuilding. I play an MMORPG called Albion Online. I like to cook for myself and loved ones.

@@ -17,7 +17,8 @@
             "email": "Your Email",
             "content": "Your Message",
             "send": "Send"
-        }
+        },
+        "resume": "Resume"
     },
     "sr": {
         "made_with": "Sajt je napravljen sa",
@@ -37,6 +38,7 @@
             "email": "E-mail adresa",
             "content": "Vaša poruka",
             "send": "Pošalji"
-        }
+        },
+        "resume": "CV"
     }
 }

@@ -28,6 +28,8 @@ Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na
 
 *Trenutno*, pokušavam da prokrčim svoj put kao programer, uvijek pokušavajući da otkrijem da li je neki softverski alat potreban ili nije.
 
+Pročitajte još o meni u mom <a href="https://milanvlaski.github.io/cv/" target="_blank">CV</a>-u.
+
 ## Životni interesi
 
  Uživam u pisanju eseja, i bodybuildingu. Igram MMORPG zvan Albion Online. Volim da kuham za sebe i moje voljene.
