@@ -2,22 +2,19 @@
 title: How I Can Help You
 order: 1
 meta:
-    description: Offline-first web apps for field work, narrative-driven landing pages for small businesses, and lightweight system reverse-engineering.
+    description: Offline-first applications for field work. Progressive web applications.
 ---
-
-1. Creating offline-first web apps to eliminate data loss in the field. For foresters or gym owners. **PWA, Offline-First.**
-2. Building narrative driven landing pages to win more customers. For small businesses moving online. **Landing page, SEO**.
-3. Reverse-engineering existing systems into more reliable and lightweight versions - whether you're stuck with an existing tool, or need a custom alternative.
+Creating offline-first web apps to eliminate data loss in the field. For foresters or gym owners.
 
 <h2 id="offline">Offline-first Apps</h2>
 
-Stop worrying about Wi-Fi. I build Progressive Web Apps (PWAs) designed specifically for entry with **greasy fingers** 😅, or away from internet.
-
-Your data is saved locally first and syncs when you’re back online. No lost progress and no "spinning wheels".
+- **Zero data loss**: Data is saved to local storage first. No "spinning wheels" while you work.
+- **Accessible**: Interfaces designed for high-friction environments where precision is hard.
+- **Owned data**: Your data isn't trapped in the system. Export to CSV or Text whenever you want.
 
 [Try the demo]({{ "/projects" | locale_url }}#workout_logger)
 
-## Landing Pages
+<!-- ## Landing Pages
 
 Narrative-driven conversion. Transitioning your small business online shouldn't feel like shouting into a void. I combine brand strategy with high-conversion landing pages.
 
@@ -32,7 +29,7 @@ I've successfuly gained connections, and attracted customers and clients with my
 
 If your current software feels like a chore, let’s replace it. If you see a piece of software, and wish you had it, we can work together to create it from scratch, and make it even lighter than the original!
 
-Perfect for government or small businesses stuck in "Excel Hell" or bloated SaaS subscriptions. Save hours of frustration by using a tool built exactly for your workflow.
+Perfect for government or small businesses stuck in "Excel Hell" or bloated SaaS subscriptions. Save hours of frustration by using a tool built exactly for your workflow. -->
 
 ## {{ t[lang].contact.heading }}
 {% include "contact_form.liquid" %}

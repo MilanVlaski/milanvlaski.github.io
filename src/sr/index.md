@@ -24,15 +24,15 @@ Posebno sam se zainteresovao za softversko inženjerstvo tokom treće godine Fak
 
 **Java** je bila najveći dio tog poglavlja, dok mi je Test Driven Development pomogao da se izdignem od totalnog početnika u korisnog programera. Kasnije sam naučio i nekoliko JVM baziranih bekend frejmvorka, uz Linux i Bash, radi upravljanja web servisima.
 
-Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na web-u, sve dok ne odlučih da naučim semantički HTML, i CSS. Trenutno, pokušavam da iskopiram <a href="https://shoelace.style" target="_blank">shoelace</a> komponente, da bih mogao lakše kreirati UI komponente koje su održive. Koristim Vanilla Javascript, pošto volim [arhitekturnu slobodu]({{"/writing/vanilla_js_architecture" | locale_url }}) koju nudi.
+Uvijek sam uživao u radu sa korisničkim interfejsima, ali sam izbjegavao to na web-u, sve dok ne odlučih da naučim semantički HTML, i CSS. Koristim Vanilla Javascript, pošto volim [arhitekturnu slobodu]({{"/writing/vanilla_js_architecture" | locale_url }}) koju nudi.
 
-*Trenutno*, pokušavam da prokrčim svoj put kao programer, uvijek pokušavajući da otkrijem da li je neki softverski alat potreban ili nije.
+*Trenutno*, radim na [workout zapisniku]({{"/projects" | locale_url}}#workout_logger), PWA koja radi bez interneta.
 
-Pročitajte još o meni u mom <a href="https://milanvlaski.github.io/cv/sr/" target="_blank">CV</a>-u.
+Detalje o mom profesionalnom iskustvu možete naći u mom <a href="https://milanvlaski.github.io/cv/sr/" target="_blank">CV</a>-u.
 
 ## Životni interesi
 
- Uživam u pisanju eseja, i bodybuildingu. Igram MMORPG zvan Albion Online. Volim da kuham za sebe i moje voljene.
+ Uživam u pisanju eseja, i bodybuildingu. Volim da kuham za sebe i moje voljene.
 
 <!--
 <figure>

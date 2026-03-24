@@ -7,6 +7,7 @@ title: eTicket Hub
 thumbnail: /assets/img/etickethub.png
 thumbnail_orientation: landscape
 description: Korišten u nemačkom transportu danas, ovaj sistem izdaje karte, i predaje ih našoj mobilnoj aplikaciji. Služi desetini Operatera Javnog Prevoza, i njihovim korisnicima.
+status: Dovršen, komercijalni projekat za <a href="https://www.esol.de/" target="_blank">eSol GMBH</a>
 ---
 Korišten u nemačkom transportu **danas**, ovaj sistem izdaje karte, i predaje ih našoj mobilnoj aplikaciji. Služi desetini Operatera Javnog Prevoza, i njihovim korisnicima.
 - Razlošio sam legacy monolitni backend u mikroservise.
@@ -16,4 +17,4 @@ Korišten u nemačkom transportu **danas**, ovaj sistem izdaje karte, i predaje 
 - Prepravio stilizaciju za demo shop, da prikaže novu funkcionalnost budućim klijentima.
 - Kreirao kratke video zapise za društvene mreže, i landing page da prikaže demonstracije aplikacije, prikazujući rad cijele naše ekipe.
 
-Tehnologije: Kotlin, Gradle, Bash, Ktor, Micronaut, Spring Boot,Google App Engine, MySQL, HTML, CSS
+**Tehnologije**: Kotlin, Gradle, Bash, Ktor, Micronaut, Spring Boot,Google App Engine, MySQL, HTML, CSS

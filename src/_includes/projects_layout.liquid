@@ -47,6 +47,9 @@
                         <p>
                             {{ item.data.description }}
                         </p>
+                        <p>
+                            <b>Status:</b> {{ item.data.status }}
+                        </p>
 
                         {% if item.data.try_it %}
                         <a href="{{ item.data.try_it }}" class="button primary" target="_blank">{{ t[lang].try_it }}</a>

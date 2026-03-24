@@ -32,19 +32,15 @@ It was Test Driven Development that helped raise me up from a total beginner, to
 useful programmer. Later, I learned a few JVM-based backend frameworks, along with Linux and Bash
 fundamentals for deploying and managing web services.
 
-I've always enjoyed user interface work, but avoided it on the web, until I decided to get better
-at semantic HTML, and CSS. *Currently*, I'm reverse-engineering
-<a href="https://shoelace.style" target="_blank">shoelace</a> a component library so I can more easily
-create UIs that are maintainable. I use Vanilla Javascript, as I love
-the [architectural freedom]({{"/writing/vanilla_js_architecture" | locale_url }}) it offers.
+I've always enjoyed user interface work, but avoided it on the web, until I decided to get better at semantic HTML, and CSS. I use Vanilla Javascript, as I love the [architectural freedom]({{"/writing/vanilla_js_architecture" | locale_url }}) it offers.
 
-*Currently*, I'm trying to carve my own path as a programmer, always trying to see for myself whether a software tool is necessary, or not.
+*Currently*, I'm working on [workout logger]({{"/projects" | locale_url}}#workout_logger), an offline-first PWA.
 
-Read more about my experience in my <a href="https://milanvlaski.github.io/cv/" target="_blank">resume</a>.
+You can find details about my professional experience in my <a href="https://milanvlaski.github.io/cv/" target="_blank">resume</a>.
 
 ## Life interests
 
-I enjoy writing essays, and bodybuilding. I play an MMORPG called Albion Online. I like to cook for myself and loved ones.
+I enjoy writing essays, and bodybuilding. I like to cook for myself and loved ones.
 
 <!--
 <figure>
