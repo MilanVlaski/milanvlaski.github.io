@@ -678,3 +678,8 @@ footer > * {
     align-self: baseline;
 }
 /* site */
+
+video {
+    width: 100%;
+    padding-block: var(--input-spacing);
+}

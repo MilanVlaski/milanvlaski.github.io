@@ -3,12 +3,20 @@ order: 1
 prod: true
 try_it: https://milanvlaski.github.io/workout-logger/
 github_url: https://github.com/MilanVlaski/workout-logger
-title: Workout Logger
+title: Trening zapisnik
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
 description: Zapisnik treninga koja služi kao rokovnik. Dizajniran da eliminiše promašaje prstima. Radi 100% bez interneta.
 status: Potpuno funkcionalna probna verzija.
 ---
+
+<video controls poster="/assets/video/thumbnail/workout_logger.png">
+    <source src="/assets/video/workout_logger_demo_01_04_2026.mp4" type="video/mp4"> 
+</video>
+<script>
+  const video = document.querySelector('video')
+  video.volume = 0.15
+</script>
 
 Sveska i olovka su izvrsni za zapisivanje treninga — jer ne zastajkuju i pouzdani su, ali pomalo je blam nositi ih. Trening zapisnik je PWA (progressive web application) stvorena da riješi taj problem. Ona eliminiše promašaje dijelova ekrana prstima, te omogućava da zapišete kao da ih pišete olokvom. Radi savršeno bez wi-fi.
 

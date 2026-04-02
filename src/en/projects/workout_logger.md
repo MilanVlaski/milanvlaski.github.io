@@ -10,6 +10,14 @@ description: A text based workout logging app which acts as your gym notebook. I
 status: Fully functioning demo.
 ---
 
+<video controls poster="/assets/video/thumbnail/workout_logger.png">
+    <source src="/assets/video/workout_logger_demo_01_04_2026.mp4" type="video/mp4"> 
+</video>
+<script>
+  const video = document.querySelector('video')
+  video.volume = 0.15
+</script>
+
 A notebook and pen are the great for workout logging — zero lag, no crashing, and total reliability, but they're somewhat embarrassing to carry. Workout Logger is a text-based PWA (progressive web application) built to bridge that gap. It eliminates "fat-finger" errors caused by tiny buttons and sliders, allowing you to log sets as fast as you can type. Works perfectly without wi-fi.
 
 ### User-Owned Data
