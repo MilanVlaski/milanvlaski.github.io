@@ -683,3 +683,23 @@ video {
     width: 100%;
     padding-block: var(--input-spacing);
 }
+
+body > header, body > footer {
+    padding-block: var(--input-spacing);
+}
+
+body > header {
+    border-block-end: 2px solid var(--input-border-color);
+}
+
+body > footer {
+    border-block-start: 2px solid var(--input-border-color);
+}
+
+body header nav a {
+    text-decoration: none;
+}
+
+body header nav a:is(:hover, :focus-visible, :active) {
+    text-decoration: underline;
+}
