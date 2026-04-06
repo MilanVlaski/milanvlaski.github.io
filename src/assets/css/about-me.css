@@ -18,6 +18,7 @@
 
 .profile-with-links img {
     height: 180px;
+    border: 1px solid var(--input-border-color);
 }
 
 .profile-with-links svg {
