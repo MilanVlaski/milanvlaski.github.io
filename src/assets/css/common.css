@@ -182,8 +182,11 @@ body {
 svg {
     fill: currentColor;
     width: 1rem;
-    margin-inline-end: 0.2rem;
+    height: 1rem;
+    vertical-align: middle;
 }
+
+
 
 a {
     color: var(--color-primary-600);
