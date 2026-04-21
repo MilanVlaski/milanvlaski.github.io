@@ -1,5 +1,5 @@
 ---
-title: Software Engineering Versus Software Crafstmanship
+title: Software Engineering Versus Software Craftsmanship
 ---
 
 Let's consider software programming as engineering, or as crafstmanship, or art. I believe that what we're seeing with LLMs basically accelerating the software engineering side. First, let's define what software engineering is. So software engineering is *basically* taking something that's already known from science or experience or best practice, and just applying it to the problem at hand. In 90% of cases, it's more "best practice" than actual science, but in principle, that's what engineering is.
