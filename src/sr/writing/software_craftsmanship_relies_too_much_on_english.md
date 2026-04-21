@@ -13,7 +13,7 @@ Riječi u programskim jezicima, kao `class`, `public`, `function` ili `if`, sve 
 
 ## Programeri koji ne znaju Engleski
 
-Dakle dobar kod je dobra proza, i dobra proza zahtijeva znanje jezika, ili makar, zahtjeva bogat rječnik. Ako ovo fali nekome ko želi biti softverski majstor, oni će kopirati šablone koje vide. A rezultat su sulude prakse "enterprajz bekend" svijeta, gdje svaka funkcionalnost aplikacije mora imati svoj Controller -> Service -> Repository -> Entity put. Takozvana najbolja praksa. Pojednostavljena, i iskopirana, a kopiraju je i ljudi, i LLM-ovi (large language modeli).
+Dakle dobar kod je dobra proza, i dobra proza zahtjeva znanje jezika, ili makar, zahtjeva bogat rječnik. Ako ovo fali nekome ko želi biti softverski majstor, oni će kopirati šablone koje vide. A rezultat su sulude prakse "enterprajz bekend" svijeta, gdje svaka funkcionalnost aplikacije mora imati svoj Controller -> Service -> Repository -> Entity put. Takozvana najbolja praksa. Pojednostavljena, i iskopirana, a kopiraju je i ljudi, i LLM-ovi (large language modeli).
 
 ## Pragmatičan i elegantan zaključak
 
