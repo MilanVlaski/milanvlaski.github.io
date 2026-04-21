@@ -1,7 +1,7 @@
 ---
 title: Software craftsmanship relies too much on English
 ---
-![]
+<img src="/assets/img/fire_writing.png" style="width: 200px; float: right;">
 
 A lot of software acts as infrastructure. Pipes that carry shit, water or shitty water. Software craftsmanship is an attempt to move software towards art. We understand that a craftsman may not be an artist. But we believe that a *good one*, is.
 

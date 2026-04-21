@@ -1,6 +1,7 @@
 ---
 title: Softver majstorstvo se previše oslanja na Engleski jezik
 ---
+<img src="/assets/img/fire_writing.png" style="width: 200px; float: right;">
 
 Većina softvera je kao infrastruktura. Cijevi kojima teku govna, voda ili govnasta voda. Softversko majstorstvo (software craftsmanship) je pokušaj da usmjerimo softver ka umjetnosti. Svi razumijemo da zanatlija ili majstor ne moraju biti umjetnici. Ali vjerujemo da oni koji su *dobri*, jesu.
 
