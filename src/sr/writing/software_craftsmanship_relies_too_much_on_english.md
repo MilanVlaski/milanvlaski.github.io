@@ -23,3 +23,5 @@ Ako stvarno hoćemo da kodiranje bude elegantnije, a da ostane pristupačno ljud
 
 *Another one of my rants on software craftsmanship*
 [here]({{"/writing/engineering_vs_craftsmanship" | locale_url}}).
+
+Važno je navesti da neznanje Engleskog nije nikakva prepreka za "majstorluk". Ali ne-čitanje knjiga — jeste.

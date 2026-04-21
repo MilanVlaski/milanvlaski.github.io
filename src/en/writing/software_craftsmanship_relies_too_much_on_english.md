@@ -22,3 +22,5 @@ If we truly wish to make coding more elegant, while keeping it accessible, let's
 
 *Another one of my rants on software craftsmanship*
 [here]({{"/writing/engineering_vs_craftsmanship" | locale_url}}).
+
+PS: I find it important to state that lack of English skills is not a barrier to craftsmanship. But no reading books — is.
