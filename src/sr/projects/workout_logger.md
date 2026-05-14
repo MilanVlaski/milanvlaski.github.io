@@ -1,9 +1,11 @@
 ---
 order: 1
 prod: true
-try_it: https://milanvlaski.github.io/workout-logger/
+try_it: https://zapis.fit/demo
 github_url: https://github.com/MilanVlaski/workout-logger
 title: Trening zapisnik
+learn_more: https://zapis.fit/
+
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
 description: Zapisnik treninga koja služi kao rokovnik. Dizajniran da eliminiše promašaje prstima. Radi 100% bez interneta.

@@ -1,9 +1,10 @@
 ---
 order: 1
 prod: true
-try_it: https://milanvlaski.github.io/workout-logger/
+try_it: https://zapis.fit/demo
 github_url: https://github.com/MilanVlaski/workout-logger
 title: Workout Logger
+learn_more: https://zapis.fit/
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
 description: A text based workout logging app which acts as your gym notebook. It's designed to stop 'fat-finger' errors, and works 100% offline.
