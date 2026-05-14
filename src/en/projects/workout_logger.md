@@ -8,7 +8,7 @@ learn_more: https://zapis.fit/
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
 description: A text based workout logging app which acts as your gym notebook. It's designed to stop 'fat-finger' errors, and works 100% offline.
-status: Fully functioning demo.
+status: Awaiting approval for selling as a product.
 ---
 
 <video controls poster="/assets/video/thumbnail/workout_logger.png">

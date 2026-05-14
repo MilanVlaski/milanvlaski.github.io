@@ -9,7 +9,7 @@ learn_more: https://zapis.fit/
 thumbnail: /assets/img/workout_logger.png
 thumbnail_orientation: portrait
 description: Zapisnik treninga koja služi kao rokovnik. Dizajniran da eliminiše promašaje prstima. Radi 100% bez interneta.
-status: Potpuno funkcionalna probna verzija.
+status: Čeka odobrenje za prodaju proizvoda.
 ---
 
 <video controls poster="/assets/video/thumbnail/workout_logger.png">
