@@ -1,0 +1,73 @@
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #D3C6AA;
+    background: #272E33;
+    text-shadow: none;
+    font-family: monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    tab-size: 4;
+    hyphens: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #859289;
+    font-style: italic;
+}
+
+.token.operator,
+.token.boolean,
+.token.number {
+    color: #9580B6;
+}
+
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #83C092;
+}
+
+.token.function,
+.token.class-name {
+    color: #DBBC7F;
+}
+
+.token.keyword,
+.token.selector,
+.token.atrule {
+    color: #E67E80;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #77BBB3;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #E69875;
+}
+
+pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    border-radius: 6px;
+
+    width: 120%; /* Makes it 15% wider than the text container */
+    max-width: 100vw; /* Prevents it from breaking mobile screens */
+    font-size: 16px;
+}
